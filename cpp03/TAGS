@@ -1,0 +1,2535 @@
+
+.ccls-cache/@@home@salad@docs@42projects@42-cpp@cpp03/@include@c++@10@bits@stl_algobase.h,0
+
+.ccls-cache/@@home@salad@docs@42projects@42-cpp@cpp03/@usr@include@x86_64-linux-gnu@bits@types@struct_sched_param.h,161
+#define _BITS_TYPES_STRUCT_SCHED_PARAM _BITS_TYPES_STRUCT_SCHED_PARAM20,878
+struct sched_paramsched_param23,981
+  int sched_priority;sched_priority25,1002
+
+.ccls-cache/@@home@salad@docs@42projects@42-cpp@cpp03/@usr@include@x86_64-linux-gnu@bits@errno.h,284
+#define _BITS_ERRNO_H _BITS_ERRNO_H20,857
+#  define ENOTSUP	ENOTSUP30,1086
+#  define ECANCELED	ECANCELED34,1144
+#  define EOWNERDEAD	EOWNERDEAD38,1198
+#  define ENOTRECOVERABLE	ENOTRECOVERABLE42,1257
+#  define ERFKILL	ERFKILL46,1313
+#  define EHWPOISON	EHWPOISON50,1364
+
+.ccls-cache/@@home@salad@docs@42projects@42-cpp@cpp03/@include@x86_64-linux-gnu@c++@10@bits@os_defines.h,0
+
+.ccls-cache/@@home@salad@docs@42projects@42-cpp@cpp03/@usr@include@x86_64-linux-gnu@bits@cpu-set.h,961
+#define _BITS_CPU_SET_H _BITS_CPU_SET_H21,911
+#define __CPU_SETSIZE	__CPU_SETSIZE28,1074
+#define __NCPUBITS	__NCPUBITS29,1101
+typedef __CPU_MASK_TYPE __cpu_mask;__cpu_mask32,1194
+#define __CPUELT(__CPUELT35,1262
+#define __CPUMASK(__CPUMASK36,1305
+  __cpu_mask __bits[__CPU_SETSIZE / __NCPUBITS];__bits41,1431
+} cpu_set_t;cpu_set_t42,1480
+# define __CPU_ZERO_S(__CPU_ZERO_S46,1559
+# define __CPU_ZERO_S(__CPU_ZERO_S49,1665
+#define __CPU_SET_S(__CPU_SET_S58,1988
+#define __CPU_CLR_S(__CPU_CLR_S65,2271
+#define __CPU_ISSET_S(__CPU_ISSET_S72,2555
+#define __CPU_COUNT_S(__CPU_COUNT_S80,2852
+# define __CPU_EQUAL_S(__CPU_EQUAL_S84,2959
+# define __CPU_EQUAL_S(__CPU_EQUAL_S87,3075
+#define __CPU_OP_S(__CPU_OP_S99,3537
+#define __CPU_ALLOC_SIZE(__CPU_ALLOC_SIZE110,4043
+#define __CPU_ALLOC(__CPU_ALLOC112,4145
+#define __CPU_FREE(__CPU_FREE113,4197
+extern cpu_set_t *__sched_cpualloc (size_t __count) __THROW __wur;__wur119,4351
+
+.ccls-cache/@@home@salad@docs@42projects@42-cpp@cpp03/@usr@include@x86_64-linux-gnu@bits@pthreadtypes-arch.h,1437
+#define _BITS_PTHREADTYPES_ARCH_H	_BITS_PTHREADTYPES_ARCH_H19,824
+#  define __SIZEOF_PTHREAD_MUTEX_T __SIZEOF_PTHREAD_MUTEX_T25,929
+#  define __SIZEOF_PTHREAD_ATTR_T __SIZEOF_PTHREAD_ATTR_T26,967
+#  define __SIZEOF_PTHREAD_RWLOCK_T __SIZEOF_PTHREAD_RWLOCK_T27,1004
+#  define __SIZEOF_PTHREAD_BARRIER_T __SIZEOF_PTHREAD_BARRIER_T28,1043
+#  define __SIZEOF_PTHREAD_MUTEX_T __SIZEOF_PTHREAD_MUTEX_T30,1090
+#  define __SIZEOF_PTHREAD_ATTR_T __SIZEOF_PTHREAD_ATTR_T31,1128
+#  define __SIZEOF_PTHREAD_RWLOCK_T __SIZEOF_PTHREAD_RWLOCK_T32,1165
+#  define __SIZEOF_PTHREAD_BARRIER_T __SIZEOF_PTHREAD_BARRIER_T33,1204
+# define __SIZEOF_PTHREAD_MUTEX_T __SIZEOF_PTHREAD_MUTEX_T36,1258
+# define __SIZEOF_PTHREAD_ATTR_T __SIZEOF_PTHREAD_ATTR_T37,1295
+# define __SIZEOF_PTHREAD_RWLOCK_T __SIZEOF_PTHREAD_RWLOCK_T38,1331
+# define __SIZEOF_PTHREAD_BARRIER_T __SIZEOF_PTHREAD_BARRIER_T39,1369
+#define __SIZEOF_PTHREAD_MUTEXATTR_T __SIZEOF_PTHREAD_MUTEXATTR_T41,1415
+#define __SIZEOF_PTHREAD_COND_T __SIZEOF_PTHREAD_COND_T42,1454
+#define __SIZEOF_PTHREAD_CONDATTR_T __SIZEOF_PTHREAD_CONDATTR_T43,1489
+#define __SIZEOF_PTHREAD_RWLOCKATTR_T __SIZEOF_PTHREAD_RWLOCKATTR_T44,1527
+#define __SIZEOF_PTHREAD_BARRIERATTR_T __SIZEOF_PTHREAD_BARRIERATTR_T45,1567
+#define __LOCK_ALIGNMENT__LOCK_ALIGNMENT47,1609
+#define __ONCE_ALIGNMENT__ONCE_ALIGNMENT48,1634
+# define __cleanup_fct_attribute __cleanup_fct_attribute52,1730
+
+.ccls-cache/@@home@salad@docs@42projects@42-cpp@cpp03/@usr@include@x86_64-linux-gnu@bits@wchar.h,296
+#define _BITS_WCHAR_H	_BITS_WCHAR_H20,849
+# define __WCHAR_MAX	__WCHAR_MAX34,1563
+# define __WCHAR_MAX	__WCHAR_MAX36,1618
+# define __WCHAR_MAX	__WCHAR_MAX38,1667
+# define __WCHAR_MIN	__WCHAR_MIN42,1738
+# define __WCHAR_MIN	__WCHAR_MIN44,1793
+# define __WCHAR_MIN	__WCHAR_MIN46,1832
+
+.ccls-cache/@@home@salad@docs@42projects@42-cpp@cpp03/@include@c++@10@ext@type_traits.h,0
+
+.ccls-cache/@@home@salad@docs@42projects@42-cpp@cpp03/@usr@include@x86_64-linux-gnu@bits@floatn.h,1129
+#define _BITS_FLOATN_H_BITS_FLOATN_H20,868
+# define __HAVE_FLOAT128 __HAVE_FLOAT12833,1405
+# define __HAVE_FLOAT128 __HAVE_FLOAT12835,1438
+# define __HAVE_DISTINCT_FLOAT128 __HAVE_DISTINCT_FLOAT12841,1637
+# define __HAVE_DISTINCT_FLOAT128 __HAVE_DISTINCT_FLOAT12843,1679
+#define __HAVE_FLOAT64X __HAVE_FLOAT64X49,1915
+#define __HAVE_FLOAT64X_LONG_DOUBLE __HAVE_FLOAT64X_LONG_DOUBLE55,2166
+#   define __f128(__f12864,2467
+#   define __f128(__f12866,2501
+typedef _Complex float __cfloat128 __attribute__ ((__mode__ (__TC__)));__cfloat12875,2785
+#   define __CFLOAT128 __CFLOAT12876,2857
+#   define __CFLOAT128 __CFLOAT12878,2900
+typedef __float128 _Float128;_Float12887,3158
+#   define __builtin_huge_valf128(__builtin_huge_valf12892,3286
+#   define __builtin_copysignf128 __builtin_copysignf128101,3686
+#   define __builtin_fabsf128 __builtin_fabsf128102,3740
+#   define __builtin_inff128(__builtin_inff128103,3786
+#   define __builtin_nanf128(__builtin_nanf128104,3848
+#   define __builtin_nansf128(__builtin_nansf128105,3912
+#   define __builtin_signbitf128 __builtin_signbitf128113,4266
+
+.ccls-cache/@@home@salad@docs@42projects@42-cpp@cpp03/@include@c++@10@bits@exception_defines.h,0
+
+.ccls-cache/@@home@salad@docs@42projects@42-cpp@cpp03/@include@x86_64-linux-gnu@c++@10@bits@c++config.h,0
+
+.ccls-cache/@@home@salad@docs@42projects@42-cpp@cpp03/@usr@include@x86_64-linux-gnu@bits@types@locale_t.h,107
+#define _BITS_TYPES_LOCALE_T_H _BITS_TYPES_LOCALE_T_H20,848
+typedef __locale_t locale_t;locale_t24,918
+
+.ccls-cache/@@home@salad@docs@42projects@42-cpp@cpp03/@include@c++@10@bits@stl_iterator_base_funcs.h,0
+
+.ccls-cache/@@home@salad@docs@42projects@42-cpp@cpp03/@include@c++@10@bits@basic_ios.h,0
+
+.ccls-cache/@@home@salad@docs@42projects@42-cpp@cpp03/@usr@include@x86_64-linux-gnu@bits@endian.h,341
+#define _BITS_ENDIAN_H _BITS_ENDIAN_H20,852
+#define	__LITTLE_ENDIAN	__LITTLE_ENDIAN30,1371
+#define	__BIG_ENDIAN	__BIG_ENDIAN31,1400
+#define	__PDP_ENDIAN	__PDP_ENDIAN32,1426
+# define __FLOAT_WORD_ORDER __FLOAT_WORD_ORDER40,1668
+# define __LONG_LONG_PAIR(__LONG_LONG_PAIR44,1753
+# define __LONG_LONG_PAIR(__LONG_LONG_PAIR46,1829
+
+.ccls-cache/@@home@salad@docs@42projects@42-cpp@cpp03/@include@c++@10@bits@char_traits.h,0
+
+.ccls-cache/@@home@salad@docs@42projects@42-cpp@cpp03/@usr@include@x86_64-linux-gnu@bits@sys_errlist.h,0
+
+.ccls-cache/@@home@salad@docs@42projects@42-cpp@cpp03/@usr@include@pthread.h,6557
+#define _PTHREAD_H	_PTHREAD_H19,809
+  PTHREAD_CREATE_JOINABLE,PTHREAD_CREATE_JOINABLE35,1069
+#define PTHREAD_CREATE_JOINABLE	PTHREAD_CREATE_JOINABLE36,1096
+  PTHREAD_CREATE_DETACHEDPTHREAD_CREATE_DETACHED37,1152
+#define PTHREAD_CREATE_DETACHED	PTHREAD_CREATE_DETACHED38,1178
+  PTHREAD_MUTEX_TIMED_NP,PTHREAD_MUTEX_TIMED_NP45,1266
+  PTHREAD_MUTEX_RECURSIVE_NP,PTHREAD_MUTEX_RECURSIVE_NP46,1292
+  PTHREAD_MUTEX_ERRORCHECK_NP,PTHREAD_MUTEX_ERRORCHECK_NP47,1322
+  PTHREAD_MUTEX_ADAPTIVE_NPPTHREAD_MUTEX_ADAPTIVE_NP48,1353
+  PTHREAD_MUTEX_NORMAL = PTHREAD_MUTEX_TIMED_NP,PTHREAD_MUTEX_NORMAL51,1436
+  PTHREAD_MUTEX_RECURSIVE = PTHREAD_MUTEX_RECURSIVE_NP,PTHREAD_MUTEX_RECURSIVE52,1485
+  PTHREAD_MUTEX_ERRORCHECK = PTHREAD_MUTEX_ERRORCHECK_NP,PTHREAD_MUTEX_ERRORCHECK53,1541
+  PTHREAD_MUTEX_DEFAULT = PTHREAD_MUTEX_NORMALPTHREAD_MUTEX_DEFAULT54,1599
+  , PTHREAD_MUTEX_FAST_NP = PTHREAD_MUTEX_TIMED_NPPTHREAD_MUTEX_FAST_NP58,1698
+  PTHREAD_MUTEX_STALLED,PTHREAD_MUTEX_STALLED67,1823
+  PTHREAD_MUTEX_STALLED_NP = PTHREAD_MUTEX_STALLED,PTHREAD_MUTEX_STALLED_NP68,1848
+  PTHREAD_MUTEX_ROBUST,PTHREAD_MUTEX_ROBUST69,1900
+  PTHREAD_MUTEX_ROBUST_NP = PTHREAD_MUTEX_ROBUSTPTHREAD_MUTEX_ROBUST_NP70,1924
+  PTHREAD_PRIO_NONE,PTHREAD_PRIO_NONE79,2070
+  PTHREAD_PRIO_INHERIT,PTHREAD_PRIO_INHERIT80,2091
+  PTHREAD_PRIO_PROTECTPTHREAD_PRIO_PROTECT81,2115
+#define PTHREAD_MUTEX_INITIALIZER PTHREAD_MUTEX_INITIALIZER86,2150
+# define PTHREAD_RECURSIVE_MUTEX_INITIALIZER_NP PTHREAD_RECURSIVE_MUTEX_INITIALIZER_NP89,2266
+# define PTHREAD_ERRORCHECK_MUTEX_INITIALIZER_NP PTHREAD_ERRORCHECK_MUTEX_INITIALIZER_NP91,2383
+# define PTHREAD_ADAPTIVE_MUTEX_INITIALIZER_NP PTHREAD_ADAPTIVE_MUTEX_INITIALIZER_NP93,2502
+  PTHREAD_RWLOCK_PREFER_READER_NP,PTHREAD_RWLOCK_PREFER_READER_NP102,2713
+  PTHREAD_RWLOCK_PREFER_WRITER_NP,PTHREAD_RWLOCK_PREFER_WRITER_NP103,2748
+  PTHREAD_RWLOCK_PREFER_WRITER_NONRECURSIVE_NP,PTHREAD_RWLOCK_PREFER_WRITER_NONRECURSIVE_NP104,2783
+  PTHREAD_RWLOCK_DEFAULT_NP = PTHREAD_RWLOCK_PREFER_READER_NPPTHREAD_RWLOCK_DEFAULT_NP105,2831
+# define PTHREAD_RWLOCK_INITIALIZER PTHREAD_RWLOCK_INITIALIZER110,2935
+#  define PTHREAD_RWLOCK_WRITER_NONRECURSIVE_INITIALIZER_NP PTHREAD_RWLOCK_WRITER_NONRECURSIVE_INITIALIZER_NP113,3058
+  PTHREAD_INHERIT_SCHED,PTHREAD_INHERIT_SCHED122,3285
+#define PTHREAD_INHERIT_SCHED PTHREAD_INHERIT_SCHED123,3310
+  PTHREAD_EXPLICIT_SCHEDPTHREAD_EXPLICIT_SCHED124,3364
+#define PTHREAD_EXPLICIT_SCHED PTHREAD_EXPLICIT_SCHED125,3389
+  PTHREAD_SCOPE_SYSTEM,PTHREAD_SCOPE_SYSTEM132,3479
+#define PTHREAD_SCOPE_SYSTEM PTHREAD_SCOPE_SYSTEM133,3503
+  PTHREAD_SCOPE_PROCESSPTHREAD_SCOPE_PROCESS134,3556
+#define PTHREAD_SCOPE_PROCESS PTHREAD_SCOPE_PROCESS135,3580
+  PTHREAD_PROCESS_PRIVATE,PTHREAD_PROCESS_PRIVATE142,3685
+#define PTHREAD_PROCESS_PRIVATE PTHREAD_PROCESS_PRIVATE143,3712
+  PTHREAD_PROCESS_SHAREDPTHREAD_PROCESS_SHARED144,3768
+#define PTHREAD_PROCESS_SHARED PTHREAD_PROCESS_SHARED145,3793
+#define PTHREAD_COND_INITIALIZER PTHREAD_COND_INITIALIZER151,3892
+struct _pthread_cleanup_buffer_pthread_cleanup_buffer155,3996
+  void (*__routine) (void *);             /* Function to call.  */__routine157,4029
+  void *__arg;                            /* Its argument.  */__arg158,4096
+  int __canceltype;                       /* Saved cancellation type. */__canceltype159,4159
+  struct _pthread_cleanup_buffer *__prev; /* Chaining of cleanup functions.  */__prev160,4232
+  PTHREAD_CANCEL_ENABLE,PTHREAD_CANCEL_ENABLE166,4342
+#define PTHREAD_CANCEL_ENABLE PTHREAD_CANCEL_ENABLE167,4367
+  PTHREAD_CANCEL_DISABLEPTHREAD_CANCEL_DISABLE168,4421
+#define PTHREAD_CANCEL_DISABLE PTHREAD_CANCEL_DISABLE169,4446
+  PTHREAD_CANCEL_DEFERRED,PTHREAD_CANCEL_DEFERRED173,4511
+#define PTHREAD_CANCEL_DEFERRED	PTHREAD_CANCEL_DEFERRED174,4538
+  PTHREAD_CANCEL_ASYNCHRONOUSPTHREAD_CANCEL_ASYNCHRONOUS175,4594
+#define PTHREAD_CANCEL_ASYNCHRONOUS	PTHREAD_CANCEL_ASYNCHRONOUS176,4624
+#define PTHREAD_CANCELED PTHREAD_CANCELED178,4691
+#define PTHREAD_ONCE_INIT PTHREAD_ONCE_INIT182,4766
+# define PTHREAD_BARRIER_SERIAL_THREAD PTHREAD_BARRIER_SERIAL_THREAD189,5003
+    __jmp_buf __cancel_jmp_buf;__cancel_jmp_buf503,17028
+    int __mask_was_saved;__mask_was_saved504,17060
+  } __cancel_jmp_buf[1];__cancel_jmp_buf505,17086
+  void *__pad[4];__pad506,17111
+} __pthread_unwind_buf_t __attribute__ ((__aligned__));__pthread_unwind_buf_t507,17129
+# define __cleanup_fct_attribute__cleanup_fct_attribute511,17259
+struct __pthread_cleanup_frame__pthread_cleanup_frame516,17359
+  void (*__cancel_routine) (void *);__cancel_routine518,17392
+  void *__cancel_arg;__cancel_arg519,17429
+  int __do_it;__do_it520,17451
+  int __cancel_type;__cancel_type521,17466
+class __pthread_cleanup_class__pthread_cleanup_class527,17612
+  void (*__cancel_routine) (void *);__cancel_routine529,17644
+  void *__cancel_arg;__cancel_arg530,17681
+  int __do_it;__do_it531,17703
+  int __cancel_type;__cancel_type532,17718
+  __pthread_cleanup_class (void (*__fct) (void *), void *__arg)__pthread_cleanup_class535,17749
+  ~__pthread_cleanup_class () { if (__do_it) __cancel_routine (__cancel_arg); }~__pthread_cleanup_class537,17883
+  void __setdoit (int __newval) { __do_it = __newval; }__setdoit538,17963
+  void __defer () { pthread_setcanceltype (PTHREAD_CANCEL_DEFERRED,__defer539,18019
+  void __restore () const { pthread_setcanceltype (__cancel_type, 0); }__restore541,18114
+#  define pthread_cleanup_push(pthread_cleanup_push551,18598
+#  define pthread_cleanup_pop(pthread_cleanup_pop557,18860
+#   define pthread_cleanup_push_defer_np(pthread_cleanup_push_defer_np565,19134
+#   define pthread_cleanup_pop_restore_np(pthread_cleanup_pop_restore_np573,19487
+__pthread_cleanup_routine (struct __pthread_cleanup_frame *__frame)__pthread_cleanup_routine584,19891
+#  define pthread_cleanup_push(pthread_cleanup_push597,20451
+#  define pthread_cleanup_pop(pthread_cleanup_pop606,20882
+#   define pthread_cleanup_push_defer_np(pthread_cleanup_push_defer_np614,21156
+#   define pthread_cleanup_pop_restore_np(pthread_cleanup_pop_restore_np626,21754
+# define pthread_cleanup_push(pthread_cleanup_push640,22373
+# define pthread_cleanup_pop(pthread_cleanup_pop661,23279
+#  define pthread_cleanup_push_defer_np(pthread_cleanup_push_defer_np675,23855
+#  define pthread_cleanup_pop_restore_np(pthread_cleanup_pop_restore_np697,24827
+__NTH (pthread_equal (pthread_t __thread1, pthread_t __thread2))pthread_equal1165,41555
+
+.ccls-cache/@@home@salad@docs@42projects@42-cpp@cpp03/@include@c++@10@ext@string_conversions.h,0
+
+.ccls-cache/@@home@salad@docs@42projects@42-cpp@cpp03/@include@x86_64-linux-gnu@c++@10@bits@error_constants.h,0
+
+.ccls-cache/@@home@salad@docs@42projects@42-cpp@cpp03/@usr@include@x86_64-linux-gnu@sys@select.h,730
+#define _SYS_SELECT_H	_SYS_SELECT_H22,961
+typedef __suseconds_t suseconds_t;suseconds_t43,1418
+# define __suseconds_t_defined__suseconds_t_defined44,1453
+typedef long int __fd_mask;__fd_mask49,1555
+#undef	__NFDBITS__NFDBITS52,1650
+#define __NFDBITS	__NFDBITS54,1730
+#define	__FD_ELT(__FD_ELT55,1779
+#define	__FD_MASK(__FD_MASK56,1817
+    __fd_mask fds_bits[__FD_SETSIZE / __NFDBITS];fds_bits64,2061
+# define __FDS_BITS(__FDS_BITS65,2111
+  } fd_set;fd_set70,2264
+#define	FD_SETSIZE	FD_SETSIZE73,2332
+typedef __fd_mask fd_mask;fd_mask77,2449
+# define NFDBITS	NFDBITS80,2552
+#define	FD_SET(FD_SET85,2624
+#define	FD_CLR(FD_CLR86,2673
+#define	FD_ISSET(FD_ISSET87,2722
+#define	FD_ZERO(FD_ZERO88,2775
+
+.ccls-cache/@@home@salad@docs@42projects@42-cpp@cpp03/@include@c++@10@ext@new_allocator.h,0
+
+.ccls-cache/@@home@salad@docs@42projects@42-cpp@cpp03/@include@c++@10@bits@nested_exception.h,0
+
+.ccls-cache/@@home@salad@docs@42projects@42-cpp@cpp03/@usr@include@x86_64-linux-gnu@bits@struct_mutex.h,969
+#define _THREAD_MUTEX_INTERNAL_H _THREAD_MUTEX_INTERNAL_H20,864
+struct __pthread_mutex_s__pthread_mutex_s22,900
+  int __lock;__lock24,927
+  unsigned int __count;__count25,941
+  int __owner;__owner26,965
+  unsigned int __nusers;__nusers28,998
+  int __kind;__kind32,1152
+  short __spins;__spins34,1184
+  short __elision;__elision35,1201
+  __pthread_list_t __list;__list36,1220
+# define __PTHREAD_MUTEX_HAVE_PREV __PTHREAD_MUTEX_HAVE_PREV37,1247
+  unsigned int __nusers;__nusers39,1295
+      short __espins;__espins44,1363
+      short __eelision;__eelision45,1385
+# define __spins __spins46,1409
+# define __elision __elision47,1450
+    } __elision_data;__elision_data48,1495
+    __pthread_slist_t __list;__list49,1517
+# define __PTHREAD_MUTEX_HAVE_PREV __PTHREAD_MUTEX_HAVE_PREV51,1552
+# define __PTHREAD_MUTEX_INITIALIZER(__PTHREAD_MUTEX_INITIALIZER56,1623
+# define __PTHREAD_MUTEX_INITIALIZER(__PTHREAD_MUTEX_INITIALIZER59,1713
+
+.ccls-cache/@@home@salad@docs@42projects@42-cpp@cpp03/@usr@include@x86_64-linux-gnu@bits@types@error_t.h,89
+# define __error_t_defined __error_t_defined20,835
+typedef int error_t;error_t22,865
+
+.ccls-cache/@@home@salad@docs@42projects@42-cpp@cpp03/@usr@include@stdlib.h,3476
+#define __GLIBC_INTERNAL_STARTING_HEADER_IMPLEMENTATION__GLIBC_INTERNAL_STARTING_HEADER_IMPLEMENTATION24,872
+#define __need_size_t__need_size_t28,1018
+#define __need_wchar_t__need_wchar_t29,1040
+#define __need_NULL__need_NULL30,1063
+#define	_STDLIB_H	_STDLIB_H35,1119
+# define WEXITSTATUS(WEXITSTATUS43,1409
+# define WTERMSIG(WTERMSIG44,1461
+# define WSTOPSIG(WSTOPSIG45,1507
+# define WIFEXITED(WIFEXITED46,1553
+# define WIFSIGNALED(WIFSIGNALED47,1601
+# define WIFSTOPPED(WIFSTOPPED48,1653
+#  define WIFCONTINUED(WIFCONTINUED50,1726
+    int quot;			/* Quotient.  */quot60,1962
+    int rem;			/* Remainder.  */rem61,1995
+  } div_t;div_t62,2028
+    long int quot;		/* Quotient.  */quot68,2111
+    long int rem;		/* Remainder.  */rem69,2148
+  } ldiv_t;ldiv_t70,2185
+# define __ldiv_t_defined	__ldiv_t_defined71,2197
+    long long int quot;		/* Quotient.  */quot78,2349
+    long long int rem;		/* Remainder.  */rem79,2391
+  } lldiv_t;lldiv_t80,2433
+# define __lldiv_t_defined	__lldiv_t_defined81,2446
+#define	RAND_MAX	RAND_MAX86,2546
+#define	EXIT_FAILURE	EXIT_FAILURE91,2695
+#define	EXIT_SUCCESS	EXIT_SUCCESS92,2746
+#define	MB_CUR_MAX	MB_CUR_MAX96,2872
+extern size_t __ctype_get_mb_cur_max (void) __THROW __wur;__wur97,2919
+__NTH (atoi (const char *__nptr))atoi361,11282
+__NTH (atol (const char *__nptr))atol366,11397
+__NTH (atoll (const char *__nptr))atoll373,11547
+extern char *l64a (long int __n) __THROW __wur;__wur385,11901
+struct random_datarandom_data423,13561
+    int32_t *fptr;		/* Front pointer.  */fptr425,13584
+    int32_t *rptr;		/* Rear pointer.  */rptr426,13626
+    int32_t *state;		/* Array of state values.  */state427,13667
+    int rand_type;		/* Type of random number generator.  */rand_type428,13718
+    int rand_deg;		/* Degree of random number generator.  */rand_deg429,13778
+    int rand_sep;		/* Distance between front and rear.  */rand_sep430,13839
+    int32_t *end_ptr;		/* Pointer behind state table.  */end_ptr431,13898
+struct drand48_datadrand48_data490,16041
+    unsigned short int __x[3];	/* Current state.  */__x492,16065
+    unsigned short int __old_x[3]; /* Old state.  */__old_x493,16118
+    unsigned short int __c;	/* Additive const. in congruential formula.  */__c494,16171
+    unsigned short int __init;	/* Flag for initializing.  */__init495,16247
+    __extension__ unsigned long long int __a;	/* Factor in congruential__a496,16308
+#   define mkstemp mkstemp694,24182
+#   define mkstemps mkstemps716,24851
+#   define mkostemp mkostemp748,25965
+#   define mkostemps mkostemps770,26663
+		       char *__restrict __resolved) __THROW __wur;__wur801,27668
+# define __COMPAR_FN_T__COMPAR_FN_T807,27803
+typedef int (*__compar_fn_t) (const void *, const void *);__compar_fn_t808,27826
+typedef __compar_fn_t comparison_fn_t;comparison_fn_t811,27904
+typedef int (*__compar_d_fn_t) (const void *, const void *, void *);__compar_d_fn_t815,27975
+extern int abs (int __x) __THROW __attribute__ ((__const__)) __wur;__wur840,28833
+extern long int labs (long int __x) __THROW __attribute__ ((__const__)) __wur;__wur841,28901
+     __THROW __attribute__ ((__const__)) __wur;__wur845,29062
+     __THROW __attribute__ ((__const__)) __wur;__wur853,29312
+     __THROW __attribute__ ((__const__)) __wur;__wur855,29416
+     __THROW __attribute__ ((__const__)) __wur;__wur860,29575
+extern char *ptsname (int __fd) __THROW __wur;__wur985,34577
+
+.ccls-cache/@@home@salad@docs@42projects@42-cpp@cpp03/@include@c++@10@bits@ostream_insert.h,0
+
+.ccls-cache/@@home@salad@docs@42projects@42-cpp@cpp03/@usr@include@stdint.h,7156
+#define _STDINT_H	_STDINT_H23,858
+#define __GLIBC_INTERNAL_STARTING_HEADER_IMPLEMENTATION__GLIBC_INTERNAL_STARTING_HEADER_IMPLEMENTATION25,879
+typedef __int_least8_t int_least8_t;int_least8_t43,1209
+typedef __int_least16_t int_least16_t;int_least16_t44,1246
+typedef __int_least32_t int_least32_t;int_least32_t45,1285
+typedef __int_least64_t int_least64_t;int_least64_t46,1324
+typedef __uint_least8_t uint_least8_t;uint_least8_t49,1381
+typedef __uint_least16_t uint_least16_t;uint_least16_t50,1420
+typedef __uint_least32_t uint_least32_t;uint_least32_t51,1461
+typedef __uint_least64_t uint_least64_t;uint_least64_t52,1502
+typedef signed char		int_fast8_t;int_fast8_t58,1580
+typedef long int		int_fast16_t;int_fast16_t60,1635
+typedef long int		int_fast32_t;int_fast32_t61,1667
+typedef long int		int_fast64_t;int_fast64_t62,1699
+typedef int			int_fast16_t;int_fast16_t64,1737
+typedef int			int_fast32_t;int_fast32_t65,1765
+typedef long long int		int_fast64_t;int_fast64_t67,1807
+typedef unsigned char		uint_fast8_t;uint_fast8_t71,1869
+typedef unsigned long int	uint_fast16_t;uint_fast16_t73,1927
+typedef unsigned long int	uint_fast32_t;uint_fast32_t74,1968
+typedef unsigned long int	uint_fast64_t;uint_fast64_t75,2009
+typedef unsigned int		uint_fast16_t;uint_fast16_t77,2056
+typedef unsigned int		uint_fast32_t;uint_fast32_t78,2093
+typedef unsigned long long int	uint_fast64_t;uint_fast64_t80,2144
+typedef long int		intptr_t;intptr_t87,2284
+#  define __intptr_t_defined__intptr_t_defined88,2312
+typedef unsigned long int	uintptr_t;uintptr_t90,2349
+typedef int			intptr_t;intptr_t93,2420
+#  define __intptr_t_defined__intptr_t_defined94,2444
+typedef unsigned int		uintptr_t;uintptr_t96,2481
+typedef __intmax_t		intmax_t;intmax_t101,2554
+typedef __uintmax_t		uintmax_t;uintmax_t102,2584
+#  define __INT64_C(__INT64_C106,2640
+#  define __UINT64_C(__UINT64_C107,2670
+#  define __INT64_C(__INT64_C109,2709
+#  define __UINT64_C(__UINT64_C110,2740
+# define INT8_MIN	INT8_MIN116,2857
+# define INT16_MIN	INT16_MIN117,2883
+# define INT32_MIN	INT32_MIN118,2914
+# define INT64_MIN	INT64_MIN119,2950
+# define INT8_MAX	INT8_MAX121,3047
+# define INT16_MAX	INT16_MAX122,3072
+# define INT32_MAX	INT32_MAX123,3100
+# define INT64_MAX	INT64_MAX124,3133
+# define UINT8_MAX	UINT8_MAX127,3230
+# define UINT16_MAX	UINT16_MAX128,3256
+# define UINT32_MAX	UINT32_MAX129,3285
+# define UINT64_MAX	UINT64_MAX130,3320
+# define INT_LEAST8_MIN	INT_LEAST8_MIN134,3441
+# define INT_LEAST16_MIN	INT_LEAST16_MIN135,3473
+# define INT_LEAST32_MIN	INT_LEAST32_MIN136,3509
+# define INT_LEAST64_MIN	INT_LEAST64_MIN137,3550
+# define INT_LEAST8_MAX	INT_LEAST8_MAX139,3674
+# define INT_LEAST16_MAX	INT_LEAST16_MAX140,3705
+# define INT_LEAST32_MAX	INT_LEAST32_MAX141,3738
+# define INT_LEAST64_MAX	INT_LEAST64_MAX142,3776
+# define UINT_LEAST8_MAX	UINT_LEAST8_MAX145,3900
+# define UINT_LEAST16_MAX	UINT_LEAST16_MAX146,3931
+# define UINT_LEAST32_MAX	UINT_LEAST32_MAX147,3965
+# define UINT_LEAST64_MAX	UINT_LEAST64_MAX148,4005
+# define INT_FAST8_MIN	INT_FAST8_MIN152,4136
+#  define INT_FAST16_MIN	INT_FAST16_MIN154,4189
+#  define INT_FAST32_MIN	INT_FAST32_MIN155,4240
+#  define INT_FAST16_MIN	INT_FAST16_MIN157,4298
+#  define INT_FAST32_MIN	INT_FAST32_MIN158,4339
+# define INT_FAST64_MIN	INT_FAST64_MIN160,4388
+# define INT_FAST8_MAX	INT_FAST8_MAX162,4517
+#  define INT_FAST16_MAX	INT_FAST16_MAX164,4569
+#  define INT_FAST32_MAX	INT_FAST32_MAX165,4617
+#  define INT_FAST16_MAX	INT_FAST16_MAX167,4672
+#  define INT_FAST32_MAX	INT_FAST32_MAX168,4710
+# define INT_FAST64_MAX	INT_FAST64_MAX170,4756
+# define UINT_FAST8_MAX	UINT_FAST8_MAX173,4885
+#  define UINT_FAST16_MAX	UINT_FAST16_MAX175,4938
+#  define UINT_FAST32_MAX	UINT_FAST32_MAX176,4989
+#  define UINT_FAST16_MAX	UINT_FAST16_MAX178,5047
+#  define UINT_FAST32_MAX	UINT_FAST32_MAX179,5087
+# define UINT_FAST64_MAX	UINT_FAST64_MAX181,5135
+#  define INTPTR_MIN	INTPTR_MIN186,5286
+#  define INTPTR_MAX	INTPTR_MAX187,5334
+#  define UINTPTR_MAX	UINTPTR_MAX188,5379
+#  define INTPTR_MIN	INTPTR_MIN190,5434
+#  define INTPTR_MAX	INTPTR_MAX191,5472
+#  define UINTPTR_MAX	UINTPTR_MAX192,5507
+# define INTMAX_MIN	INTMAX_MIN197,5603
+# define INTMAX_MAX	INTMAX_MAX199,5709
+# define UINTMAX_MAX	UINTMAX_MAX202,5815
+#  define PTRDIFF_MIN	PTRDIFF_MIN209,5970
+#  define PTRDIFF_MAX	PTRDIFF_MAX210,6019
+#   define PTRDIFF_MIN	PTRDIFF_MIN213,6104
+#   define PTRDIFF_MAX	PTRDIFF_MAX214,6145
+#   define PTRDIFF_MIN	PTRDIFF_MIN216,6191
+#   define PTRDIFF_MAX	PTRDIFF_MAX217,6231
+# define SIG_ATOMIC_MIN	SIG_ATOMIC_MIN222,6319
+# define SIG_ATOMIC_MAX	SIG_ATOMIC_MAX223,6360
+#  define SIZE_MAX	SIZE_MAX227,6452
+#   define SIZE_MAX	SIZE_MAX230,6534
+#   define SIZE_MAX	SIZE_MAX232,6578
+#  define WCHAR_MIN	WCHAR_MIN239,6737
+#  define WCHAR_MAX	WCHAR_MAX240,6770
+# define WINT_MIN	WINT_MIN244,6839
+# define WINT_MAX	WINT_MAX245,6863
+# define INT8_C(INT8_C248,6912
+# define INT16_C(INT16_C249,6933
+# define INT32_C(INT32_C250,6955
+#  define INT64_C(INT64_C252,6999
+#  define INT64_C(INT64_C254,7034
+# define UINT8_C(UINT8_C258,7089
+# define UINT16_C(UINT16_C259,7111
+# define UINT32_C(UINT32_C260,7134
+#  define UINT64_C(UINT64_C262,7184
+#  define UINT64_C(UINT64_C264,7221
+#  define INTMAX_C(INTMAX_C269,7304
+#  define UINTMAX_C(UINTMAX_C270,7333
+#  define INTMAX_C(INTMAX_C272,7371
+#  define UINTMAX_C(UINTMAX_C273,7401
+# define INT8_WIDTH INT8_WIDTH278,7483
+# define UINT8_WIDTH UINT8_WIDTH279,7505
+# define INT16_WIDTH INT16_WIDTH280,7528
+# define UINT16_WIDTH UINT16_WIDTH281,7552
+# define INT32_WIDTH INT32_WIDTH282,7577
+# define UINT32_WIDTH UINT32_WIDTH283,7601
+# define INT64_WIDTH INT64_WIDTH284,7626
+# define UINT64_WIDTH UINT64_WIDTH285,7650
+# define INT_LEAST8_WIDTH INT_LEAST8_WIDTH287,7676
+# define UINT_LEAST8_WIDTH UINT_LEAST8_WIDTH288,7704
+# define INT_LEAST16_WIDTH INT_LEAST16_WIDTH289,7733
+# define UINT_LEAST16_WIDTH UINT_LEAST16_WIDTH290,7763
+# define INT_LEAST32_WIDTH INT_LEAST32_WIDTH291,7794
+# define UINT_LEAST32_WIDTH UINT_LEAST32_WIDTH292,7824
+# define INT_LEAST64_WIDTH INT_LEAST64_WIDTH293,7855
+# define UINT_LEAST64_WIDTH UINT_LEAST64_WIDTH294,7885
+# define INT_FAST8_WIDTH INT_FAST8_WIDTH296,7917
+# define UINT_FAST8_WIDTH UINT_FAST8_WIDTH297,7944
+# define INT_FAST16_WIDTH INT_FAST16_WIDTH298,7972
+# define UINT_FAST16_WIDTH UINT_FAST16_WIDTH299,8009
+# define INT_FAST32_WIDTH INT_FAST32_WIDTH300,8047
+# define UINT_FAST32_WIDTH UINT_FAST32_WIDTH301,8084
+# define INT_FAST64_WIDTH INT_FAST64_WIDTH302,8122
+# define UINT_FAST64_WIDTH UINT_FAST64_WIDTH303,8151
+# define INTPTR_WIDTH INTPTR_WIDTH305,8182
+# define UINTPTR_WIDTH UINTPTR_WIDTH306,8215
+# define INTMAX_WIDTH INTMAX_WIDTH308,8250
+# define UINTMAX_WIDTH UINTMAX_WIDTH309,8275
+# define PTRDIFF_WIDTH PTRDIFF_WIDTH311,8302
+# define SIG_ATOMIC_WIDTH SIG_ATOMIC_WIDTH312,8336
+# define SIZE_WIDTH SIZE_WIDTH313,8365
+# define WCHAR_WIDTH WCHAR_WIDTH314,8396
+# define WINT_WIDTH WINT_WIDTH315,8420
+
+.ccls-cache/@@home@salad@docs@42projects@42-cpp@cpp03/@usr@include@x86_64-linux-gnu@bits@types@__sigset_t.h,185
+#define ____sigset_t_defined____sigset_t_defined2,29
+#define _SIGSET_NWORDS _SIGSET_NWORDS4,59
+  unsigned long int __val[_SIGSET_NWORDS];__val7,141
+} __sigset_t;__sigset_t8,184
+
+.ccls-cache/@@home@salad@docs@42projects@42-cpp@cpp03/@usr@include@x86_64-linux-gnu@bits@byteswap.h,369
+#define _BITS_BYTESWAP_H _BITS_BYTESWAP_H24,1051
+#define __bswap_constant_16(__bswap_constant_1630,1161
+__bswap_16 (__uint16_t __bsx)__bswap_1634,1287
+#define __bswap_constant_32(__bswap_constant_3244,1469
+__bswap_32 (__uint32_t __bsx)__bswap_3249,1659
+#define __bswap_constant_64(__bswap_constant_6459,1841
+__bswap_64 (__uint64_t __bsx)__bswap_6470,2273
+
+.ccls-cache/@@home@salad@docs@42projects@42-cpp@cpp03/@include@x86_64-linux-gnu@c++@10@bits@gthr-default.h,0
+
+.ccls-cache/@@home@salad@docs@42projects@42-cpp@cpp03/@include@c++@10@bits@functexcept.h,0
+
+.ccls-cache/@@home@salad@docs@42projects@42-cpp@cpp03/@usr@include@x86_64-linux-gnu@bits@types@timer_t.h,91
+#define __timer_t_defined __timer_t_defined2,26
+typedef __timer_t timer_t;timer_t7,124
+
+.ccls-cache/@@home@salad@docs@42projects@42-cpp@cpp03/@include@c++@10@bits@basic_string.h,0
+
+.ccls-cache/@@home@salad@docs@42projects@42-cpp@cpp03/@usr@include@x86_64-linux-gnu@bits@stdint-uintn.h,235
+#define _BITS_STDINT_UINTN_H	_BITS_STDINT_UINTN_H20,844
+typedef __uint8_t uint8_t;uint8_t24,901
+typedef __uint16_t uint16_t;uint16_t25,928
+typedef __uint32_t uint32_t;uint32_t26,957
+typedef __uint64_t uint64_t;uint64_t27,986
+
+.ccls-cache/@@home@salad@docs@42projects@42-cpp@cpp03/@usr@include@x86_64-linux-gnu@bits@stdlib-float.h,46
+__NTH (atof (const char *__nptr))atof25,996
+
+.ccls-cache/@@home@salad@docs@42projects@42-cpp@cpp03/@include@c++@10@bits@cxxabi_init_exception.h,0
+
+.ccls-cache/@@home@salad@docs@42projects@42-cpp@cpp03/@usr@include@x86_64-linux-gnu@bits@types@FILE.h,85
+#define __FILE_defined __FILE_defined2,23
+typedef struct _IO_FILE FILE;FILE7,142
+
+.ccls-cache/@@home@salad@docs@42projects@42-cpp@cpp03/@usr@include@x86_64-linux-gnu@bits@waitflags.h,663
+#define	WNOHANG	WNOHANG25,1022
+#define	WUNTRACED	WUNTRACED26,1069
+# define WSTOPPED	WSTOPPED30,1239
+# define WEXITED	WEXITED31,1307
+# define WCONTINUED	WCONTINUED32,1352
+# define WNOWAIT	WNOWAIT33,1405
+#define __WNOTHREAD __WNOTHREAD36,1478
+#define __WALL	__WALL38,1583
+#define __WCLONE	__WCLONE39,1637
+# define __ENUM_IDTYPE_T __ENUM_IDTYPE_T44,1845
+# undef P_ALLP_ALL48,1998
+# undef P_PIDP_PID49,2012
+# undef P_PGIDP_PGID50,2026
+  P_ALL,		/* Wait for any child.  */P_ALL54,2057
+  P_PID,		/* Wait for specified process.  */P_PID55,2094
+  P_PGID		/* Wait for members of process group.  */P_PGID56,2139
+} idtype_t;idtype_t57,2191
+
+.ccls-cache/@@home@salad@docs@42projects@42-cpp@cpp03/@include@c++@10@bits@exception_ptr.h,0
+
+.ccls-cache/@@home@salad@docs@42projects@42-cpp@cpp03/@usr@include@x86_64-linux-gnu@bits@floatn-common.h,4288
+#define _BITS_FLOATN_COMMON_H_BITS_FLOATN_COMMON_H21,932
+#define __HAVE_FLOAT16 __HAVE_FLOAT1634,1499
+#define __HAVE_FLOAT32 __HAVE_FLOAT3235,1524
+#define __HAVE_FLOAT64 __HAVE_FLOAT6436,1549
+#define __HAVE_FLOAT32X __HAVE_FLOAT32X37,1574
+#define __HAVE_FLOAT128X __HAVE_FLOAT128X38,1600
+#define __HAVE_DISTINCT_FLOAT16 __HAVE_DISTINCT_FLOAT1652,2367
+#define __HAVE_DISTINCT_FLOAT32 __HAVE_DISTINCT_FLOAT3253,2414
+#define __HAVE_DISTINCT_FLOAT64 __HAVE_DISTINCT_FLOAT6454,2448
+#define __HAVE_DISTINCT_FLOAT32X __HAVE_DISTINCT_FLOAT32X55,2482
+#define __HAVE_DISTINCT_FLOAT64X __HAVE_DISTINCT_FLOAT64X56,2517
+#define __HAVE_DISTINCT_FLOAT128X __HAVE_DISTINCT_FLOAT128X57,2552
+#define __HAVE_FLOAT128_UNLIKE_LDBL __HAVE_FLOAT128_UNLIKE_LDBL63,2846
+# define __HAVE_FLOATN_NOT_TYPEDEF __HAVE_FLOATN_NOT_TYPEDEF70,3202
+# define __HAVE_FLOATN_NOT_TYPEDEF __HAVE_FLOATN_NOT_TYPEDEF72,3245
+#   define __f16(__f1683,3628
+#   define __f16(__f1685,3674
+#   define __f32(__f3291,3790
+#   define __f32(__f3293,3823
+#    define __f64(__f64100,3971
+#    define __f64(__f64102,4006
+#   define __f64(__f64105,4047
+#   define __f32x(__f32x111,4164
+#   define __f32x(__f32x113,4195
+#    define __f64x(__f64x120,4349
+#    define __f64x(__f64x122,4385
+#   define __f64x(__f64x125,4436
+#   define __f128x(__f128x133,4620
+typedef _Complex float __cfloat16 __attribute__ ((__mode__ (__HC__)));__cfloat16140,4796
+#   define __CFLOAT16 __CFLOAT16141,4867
+#   define __CFLOAT16 __CFLOAT16143,4908
+#   define __CFLOAT32 __CFLOAT32149,5037
+#   define __CFLOAT32 __CFLOAT32151,5082
+#    define __CFLOAT64 __CFLOAT64158,5243
+#    define __CFLOAT64 __CFLOAT64160,5296
+#   define __CFLOAT64 __CFLOAT64163,5353
+#   define __CFLOAT32X __CFLOAT32X169,5483
+#   define __CFLOAT32X __CFLOAT32X171,5530
+#    define __CFLOAT64X __CFLOAT64X178,5697
+#    define __CFLOAT64X __CFLOAT64X180,5751
+#   define __CFLOAT64X __CFLOAT64X183,5805
+#   define __CFLOAT128X __CFLOAT128X191,5999
+typedef float _Float16 __attribute__ ((__mode__ (__HF__)));_Float16199,6205
+#   define __builtin_huge_valf16(__builtin_huge_valf16203,6303
+#   define __builtin_inff16(__builtin_inff16204,6373
+#   define __builtin_nanf16(__builtin_nanf16205,6433
+#   define __builtin_nansf16(__builtin_nansf16206,6495
+typedef float _Float32;_Float32214,6650
+#   define __builtin_huge_valf32(__builtin_huge_valf32218,6712
+#   define __builtin_inff32(__builtin_inff32219,6772
+#   define __builtin_nanf32(__builtin_nanf32220,6822
+#   define __builtin_nansf32(__builtin_nansf32221,6874
+typedef long double _Float64;_Float64238,7395
+#    define __builtin_huge_valf64(__builtin_huge_valf64242,7465
+#    define __builtin_inff64(__builtin_inff64243,7526
+#    define __builtin_nanf64(__builtin_nanf64244,7577
+#    define __builtin_nansf64(__builtin_nansf64245,7630
+typedef double _Float64;_Float64251,7757
+#    define __builtin_huge_valf64(__builtin_huge_valf64255,7822
+#    define __builtin_inff64(__builtin_inff64256,7882
+#    define __builtin_nanf64(__builtin_nanf64257,7932
+#    define __builtin_nansf64(__builtin_nansf64258,7984
+typedef double _Float32x;_Float32x268,8141
+#   define __builtin_huge_valf32x(__builtin_huge_valf32x272,8205
+#   define __builtin_inff32x(__builtin_inff32x273,8265
+#   define __builtin_nanf32x(__builtin_nanf32x274,8315
+#   define __builtin_nansf32x(__builtin_nansf32x275,8367
+typedef long double _Float64x;_Float64x285,8549
+#    define __builtin_huge_valf64x(__builtin_huge_valf64x289,8620
+#    define __builtin_inff64x(__builtin_inff64x290,8682
+#    define __builtin_nanf64x(__builtin_nanf64x291,8734
+#    define __builtin_nansf64x(__builtin_nansf64x292,8788
+typedef _Float128 _Float64x;_Float64x298,8916
+#    define __builtin_huge_valf64x(__builtin_huge_valf64x302,8985
+#    define __builtin_inff64x(__builtin_inff64x303,9050
+#    define __builtin_nanf64x(__builtin_nanf64x304,9105
+#    define __builtin_nansf64x(__builtin_nansf64x305,9162
+#   define __builtin_huge_valf128x(__builtin_huge_valf128x319,9408
+#   define __builtin_inff128x(__builtin_inff128x320,9482
+#   define __builtin_nanf128x(__builtin_nanf128x321,9546
+#   define __builtin_nansf128x(__builtin_nansf128x322,9612
+
+.ccls-cache/@@home@salad@docs@42projects@42-cpp@cpp03/@usr@include@x86_64-linux-gnu@bits@types@struct_timespec.h,306
+#define _STRUCT_TIMESPEC _STRUCT_TIMESPEC3,84
+struct timespectimespec10,287
+  __time_t tv_sec;		/* Seconds.  */tv_sec12,305
+  __syscall_slong_t tv_nsec;	/* Nanoseconds.  */tv_nsec16,450
+  long int tv_nsec;  /* Nanoseconds.  */tv_nsec20,576
+  long int tv_nsec;  /* Nanoseconds.  */tv_nsec22,624
+
+.ccls-cache/@@home@salad@docs@42projects@42-cpp@cpp03/@usr@include@stdc-predef.h,343
+#define	_STDC_PREDEF_H	_STDC_PREDEF_H19,813
+#  define __STDC_IEC_559__	__STDC_IEC_559__38,1716
+# define __STDC_IEC_559__	__STDC_IEC_559__41,1760
+#  define __STDC_IEC_559_COMPLEX__	__STDC_IEC_559_COMPLEX__46,1857
+# define __STDC_IEC_559_COMPLEX__	__STDC_IEC_559_COMPLEX__49,1908
+#define __STDC_ISO_10646__	__STDC_ISO_10646__58,2246
+
+.ccls-cache/@@home@salad@docs@42projects@42-cpp@cpp03/@usr@include@alloca.h,139
+#define	_ALLOCA_H	_ALLOCA_H19,808
+#define	__need_size_t__need_size_t23,852
+#undef	allocaalloca29,950
+# define alloca(alloca35,1103
+
+.ccls-cache/@@home@salad@docs@42projects@42-cpp@cpp03/@include@c++@10@ext@atomicity.h,0
+
+.ccls-cache/@@home@salad@docs@42projects@42-cpp@cpp03/@usr@include@x86_64-linux-gnu@bits@types@struct_FILE.h,2353
+#define __struct_FILE_defined __struct_FILE_defined19,820
+typedef void _IO_lock_t;_IO_lock_t43,1552
+struct _IO_FILE_IO_FILE49,1757
+  int _flags;		/* High-order word is _IO_MAGIC; rest is flags. */_flags51,1775
+  char *_IO_read_ptr;	/* Current read pointer */_IO_read_ptr54,1915
+  char *_IO_read_end;	/* End of get area. */_IO_read_end55,1964
+  char *_IO_read_base;	/* Start of putback+get area. */_IO_read_base56,2009
+  char *_IO_write_base;	/* Start of put area. */_IO_write_base57,2065
+  char *_IO_write_ptr;	/* Current put pointer. */_IO_write_ptr58,2114
+  char *_IO_write_end;	/* End of put area. */_IO_write_end59,2164
+  char *_IO_buf_base;	/* Start of reserve area. */_IO_buf_base60,2210
+  char *_IO_buf_end;	/* End of reserve area. */_IO_buf_end61,2261
+  char *_IO_save_base; /* Pointer to start of non-current get area. */_IO_save_base64,2380
+  char *_IO_backup_base;  /* Pointer to first valid character of backup area */_IO_backup_base65,2451
+  char *_IO_save_end; /* Pointer to end of non-current get area. */_IO_save_end66,2531
+  struct _IO_marker *_markers;_markers68,2600
+  struct _IO_FILE *_chain;_chain70,2632
+  int _fileno;_fileno72,2660
+  int _flags2;_flags273,2675
+  __off_t _old_offset; /* This used to be _offset but it's too small.  */_old_offset74,2690
+  unsigned short _cur_column;_cur_column77,2815
+  signed char _vtable_offset;_vtable_offset78,2845
+  char _shortbuf[1];_shortbuf79,2875
+  _IO_lock_t *_lock;_lock81,2897
+struct _IO_FILE_complete_IO_FILE_complete85,2949
+  struct _IO_FILE _file;_file87,2976
+  __off64_t _offset;_offset89,3008
+  struct _IO_codecvt *_codecvt;_codecvt91,3067
+  struct _IO_wide_data *_wide_data;_wide_data92,3099
+  struct _IO_FILE *_freeres_list;_freeres_list93,3135
+  void *_freeres_buf;_freeres_buf94,3169
+  size_t __pad5;__pad595,3191
+  int _mode;_mode96,3208
+  char _unused2[15 * sizeof (int) - 4 * sizeof (void *) - sizeof (size_t)];_unused298,3273
+#define __getc_unlocked_body(__getc_unlocked_body102,3420
+#define __putc_unlocked_body(__putc_unlocked_body106,3591
+#define _IO_EOF_SEEN _IO_EOF_SEEN111,3812
+#define __feof_unlocked_body(__feof_unlocked_body112,3840
+#define _IO_ERR_SEEN _IO_ERR_SEEN114,3913
+#define __ferror_unlocked_body(__ferror_unlocked_body115,3941
+#define _IO_USER_LOCK _IO_USER_LOCK117,4016
+
+.ccls-cache/@@home@salad@docs@42projects@42-cpp@cpp03/@usr@include@x86_64-linux-gnu@bits@stdint-intn.h,221
+#define _BITS_STDINT_INTN_H	_BITS_STDINT_INTN_H20,842
+typedef __int8_t int8_t;int8_t24,898
+typedef __int16_t int16_t;int16_t25,923
+typedef __int32_t int32_t;int32_t26,950
+typedef __int64_t int64_t;int64_t27,977
+
+.ccls-cache/@@home@salad@docs@42projects@42-cpp@cpp03/@include@c++@10@bits@std_abs.h,0
+
+.ccls-cache/@@home@salad@docs@42projects@42-cpp@cpp03/@usr@include@x86_64-linux-gnu@bits@types@wint_t.h,169
+#define __wint_t_defined __wint_t_defined2,25
+#define _WINT_T _WINT_T10,375
+# define __WINT_TYPE__ __WINT_TYPE__17,667
+typedef __WINT_TYPE__ wint_t;wint_t20,711
+
+.ccls-cache/@@home@salad@docs@42projects@42-cpp@cpp03/@include@x86_64-linux-gnu@c++@10@bits@gthr.h,0
+
+.ccls-cache/@@home@salad@docs@42projects@42-cpp@cpp03/@include@c++@10@bits@cxxabi_forced.h,0
+
+.ccls-cache/@@home@salad@docs@42projects@42-cpp@cpp03/@include@c++@10@bits@iterator_concepts.h,0
+
+.ccls-cache/@@home@salad@docs@42projects@42-cpp@cpp03/@include@c++@10@bits@locale_facets.h,0
+
+.ccls-cache/@@home@salad@docs@42projects@42-cpp@cpp03/@usr@include@x86_64-linux-gnu@bits@struct_rwlock.h,1201
+#define _RWLOCK_INTERNAL_H_RWLOCK_INTERNAL_H21,860
+struct __pthread_rwlock_arch_t__pthread_rwlock_arch_t23,888
+  unsigned int __readers;__readers25,921
+  unsigned int __writers;__writers26,947
+  unsigned int __wrphase_futex;__wrphase_futex27,973
+  unsigned int __writers_futex;__writers_futex28,1005
+  unsigned int __pad3;__pad329,1037
+  unsigned int __pad4;__pad430,1060
+  int __cur_writer;__cur_writer32,1101
+  int __shared;__shared33,1121
+  signed char __rwelision;__rwelision34,1137
+  unsigned char __pad1[3];__pad136,1183
+#  define __PTHREAD_RWLOCK_ELISION_EXTRA __PTHREAD_RWLOCK_ELISION_EXTRA37,1210
+  unsigned char __pad1[7];__pad139,1273
+#  define __PTHREAD_RWLOCK_ELISION_EXTRA __PTHREAD_RWLOCK_ELISION_EXTRA40,1300
+  unsigned long int __pad2;__pad242,1376
+  unsigned int __flags;__flags45,1502
+  unsigned char __flags;__flags49,1648
+  unsigned char __shared;__shared50,1673
+  signed char __rwelision;__rwelision51,1699
+  unsigned char __pad2;__pad252,1726
+  int __cur_writer;__cur_writer53,1750
+# define __PTHREAD_RWLOCK_INITIALIZER(__PTHREAD_RWLOCK_INITIALIZER58,1799
+# define __PTHREAD_RWLOCK_INITIALIZER(__PTHREAD_RWLOCK_INITIALIZER61,1923
+
+.ccls-cache/@@home@salad@docs@42projects@42-cpp@cpp03/@include@c++@10@ext@alloc_traits.h,0
+
+.ccls-cache/@@home@salad@docs@42projects@42-cpp@cpp03/@usr@include@linux@errno.h,0
+
+.ccls-cache/@@home@salad@docs@42projects@42-cpp@cpp03/@usr@include@wctype.h,118
+#define _WCTYPE_H _WCTYPE_H24,909
+# define WEOF WEOF33,1145
+typedef const __int32_t *wctrans_t;wctrans_t48,1474
+
+.ccls-cache/@@home@salad@docs@42projects@42-cpp@cpp03/@include@c++@10@bits@hash_bytes.h,0
+
+.ccls-cache/@@home@salad@docs@42projects@42-cpp@cpp03/@usr@include@x86_64-linux-gnu@bits@long-double.h,72
+#define __LONG_DOUBLE_USES_FLOAT128 __LONG_DOUBLE_USES_FLOAT12821,924
+
+.ccls-cache/@@home@salad@docs@42projects@42-cpp@cpp03/@usr@include@x86_64-linux-gnu@bits@setjmp.h,207
+#define _BITS_SETJMP_H _BITS_SETJMP_H20,882
+typedef long int __jmp_buf[8];__jmp_buf31,1101
+__extension__ typedef long long int __jmp_buf[8];__jmp_buf33,1159
+typedef int __jmp_buf[6];__jmp_buf35,1216
+
+.ccls-cache/@@home@salad@docs@42projects@42-cpp@cpp03/@include@c++@10@bits@stl_function.h,0
+
+.ccls-cache/@@home@salad@docs@42projects@42-cpp@cpp03/@include@c++@10@bits@range_access.h,0
+
+.ccls-cache/@@home@salad@docs@42projects@42-cpp@cpp03/@usr@include@x86_64-linux-gnu@sys@types.h,3938
+#define	_SYS_TYPES_H	_SYS_TYPES_H23,884
+typedef __u_char u_char;u_char33,1015
+typedef __u_short u_short;u_short34,1040
+typedef __u_int u_int;u_int35,1067
+typedef __u_long u_long;u_long36,1090
+typedef __quad_t quad_t;quad_t37,1115
+typedef __u_quad_t u_quad_t;u_quad_t38,1140
+typedef __fsid_t fsid_t;fsid_t39,1169
+#  define __u_char_defined__u_char_defined40,1194
+typedef __loff_t loff_t;loff_t42,1229
+typedef __ino_t ino_t;ino_t47,1315
+typedef __ino64_t ino_t;ino_t49,1345
+# define __ino_t_defined__ino_t_defined51,1378
+typedef __ino64_t ino64_t;ino64_t54,1470
+# define __ino64_t_defined__ino64_t_defined55,1497
+typedef __dev_t dev_t;dev_t59,1556
+# define __dev_t_defined__dev_t_defined60,1579
+typedef __gid_t gid_t;gid_t64,1636
+# define __gid_t_defined__gid_t_defined65,1659
+typedef __mode_t mode_t;mode_t69,1717
+# define __mode_t_defined__mode_t_defined70,1742
+typedef __nlink_t nlink_t;nlink_t74,1802
+# define __nlink_t_defined__nlink_t_defined75,1829
+typedef __uid_t uid_t;uid_t79,1888
+# define __uid_t_defined__uid_t_defined80,1911
+typedef __off_t off_t;off_t85,1997
+typedef __off64_t off_t;off_t87,2027
+# define __off_t_defined__off_t_defined89,2060
+typedef __off64_t off64_t;off64_t92,2152
+# define __off64_t_defined__off64_t_defined93,2179
+typedef __pid_t pid_t;pid_t97,2238
+# define __pid_t_defined__pid_t_defined98,2261
+typedef __id_t id_t;id_t103,2379
+# define __id_t_defined__id_t_defined104,2400
+typedef __ssize_t ssize_t;ssize_t108,2458
+# define __ssize_t_defined__ssize_t_defined109,2485
+typedef __daddr_t daddr_t;daddr_t114,2565
+typedef __caddr_t caddr_t;caddr_t115,2592
+#  define __daddr_t_defined__daddr_t_defined116,2619
+typedef __key_t key_t;key_t121,2739
+# define __key_t_defined__key_t_defined122,2762
+typedef __useconds_t useconds_t;useconds_t134,3032
+#  define __useconds_t_defined__useconds_t_defined135,3065
+typedef __suseconds_t suseconds_t;suseconds_t138,3135
+#  define __suseconds_t_defined__suseconds_t_defined139,3170
+#define	__need_size_t__need_size_t143,3218
+typedef unsigned long int ulong;ulong148,3323
+typedef unsigned short int ushort;ushort149,3356
+typedef unsigned int uint;uint150,3391
+typedef __uint8_t u_int8_t;u_int8_t158,3584
+typedef __uint16_t u_int16_t;u_int16_t159,3612
+typedef __uint32_t u_int32_t;u_int32_t160,3642
+typedef __uint64_t u_int64_t;u_int64_t161,3672
+typedef int register_t __attribute__ ((__mode__ (__word__)));register_t164,3728
+typedef int register_t;register_t166,3796
+#define __BIT_TYPES_DEFINED__	__BIT_TYPES_DEFINED__171,3914
+typedef __blksize_t blksize_t;blksize_t185,4258
+# define __blksize_t_defined__blksize_t_defined186,4289
+typedef __blkcnt_t blkcnt_t;	 /* Type to count number of disk blocks.  */blkcnt_t192,4434
+#  define __blkcnt_t_defined__blkcnt_t_defined193,4508
+typedef __fsblkcnt_t fsblkcnt_t; /* Type to count file system blocks.  */fsblkcnt_t196,4575
+#  define __fsblkcnt_t_defined__fsblkcnt_t_defined197,4649
+typedef __fsfilcnt_t fsfilcnt_t; /* Type to count file system inodes.  */fsfilcnt_t200,4718
+#  define __fsfilcnt_t_defined__fsfilcnt_t_defined201,4792
+typedef __blkcnt64_t blkcnt_t;	   /* Type to count number of disk blocks.  */blkcnt_t205,4865
+#  define __blkcnt_t_defined__blkcnt_t_defined206,4943
+typedef __fsblkcnt64_t fsblkcnt_t; /* Type to count file system blocks.  */fsblkcnt_t209,5010
+#  define __fsblkcnt_t_defined__fsblkcnt_t_defined210,5086
+typedef __fsfilcnt64_t fsfilcnt_t; /* Type to count file system inodes.  */fsfilcnt_t213,5155
+#  define __fsfilcnt_t_defined__fsfilcnt_t_defined214,5231
+typedef __blkcnt64_t blkcnt64_t;     /* Type to count number of disk blocks. */blkcnt64_t219,5303
+typedef __fsblkcnt64_t fsblkcnt64_t; /* Type to count file system blocks.  */fsblkcnt64_t220,5383
+typedef __fsfilcnt64_t fsfilcnt64_t; /* Type to count file system inodes.  */fsfilcnt64_t221,5461
+
+.ccls-cache/@@home@salad@docs@42projects@42-cpp@cpp03/@usr@include@x86_64-linux-gnu@bits@uintn-identity.h,246
+#define _BITS_UINTN_IDENTITY_H _BITS_UINTN_IDENTITY_H24,1043
+__uint16_identity (__uint16_t __x)__uint16_identity33,1288
+__uint32_identity (__uint32_t __x)__uint32_identity39,1369
+__uint64_identity (__uint64_t __x)__uint64_identity45,1450
+
+.ccls-cache/@@home@salad@docs@42projects@42-cpp@cpp03/@include@c++@10@debug@debug.h,0
+
+.ccls-cache/@@home@salad@docs@42projects@42-cpp@cpp03/@usr@include@x86_64-linux-gnu@bits@pthreadtypes.h,1893
+# define _BITS_PTHREADTYPES_COMMON_H	_BITS_PTHREADTYPES_COMMON_H20,888
+typedef unsigned long int pthread_t;pthread_t27,1123
+  char __size[__SIZEOF_PTHREAD_MUTEXATTR_T];__size34,1288
+  int __align;__align35,1333
+} pthread_mutexattr_t;pthread_mutexattr_t36,1348
+  char __size[__SIZEOF_PTHREAD_CONDATTR_T];__size43,1511
+  int __align;__align44,1555
+} pthread_condattr_t;pthread_condattr_t45,1570
+typedef unsigned int pthread_key_t;pthread_key_t49,1630
+typedef int __ONCE_ALIGNMENT pthread_once_t;pthread_once_t53,1694
+union pthread_attr_tpthread_attr_t56,1741
+  char __size[__SIZEOF_PTHREAD_ATTR_T];__size58,1764
+  long int __align;__align59,1804
+typedef union pthread_attr_t pthread_attr_t;pthread_attr_t62,1857
+# define __have_pthread_attr_t __have_pthread_attr_t63,1902
+  struct __pthread_mutex_s __data;__data69,1960
+  char __size[__SIZEOF_PTHREAD_MUTEX_T];__size70,1995
+  long int __align;__align71,2036
+} pthread_mutex_t;pthread_mutex_t72,2056
+  struct __pthread_cond_s __data;__data77,2093
+  char __size[__SIZEOF_PTHREAD_COND_T];__size78,2127
+  __extension__ long long int __align;__align79,2167
+} pthread_cond_t;pthread_cond_t80,2206
+  struct __pthread_rwlock_arch_t __data;__data88,2425
+  char __size[__SIZEOF_PTHREAD_RWLOCK_T];__size89,2466
+  long int __align;__align90,2508
+} pthread_rwlock_t;pthread_rwlock_t91,2528
+  char __size[__SIZEOF_PTHREAD_RWLOCKATTR_T];__size95,2565
+  long int __align;__align96,2611
+} pthread_rwlockattr_t;pthread_rwlockattr_t97,2631
+typedef volatile int pthread_spinlock_t;pthread_spinlock_t103,2718
+  char __size[__SIZEOF_PTHREAD_BARRIER_T];__size110,2869
+  long int __align;__align111,2912
+} pthread_barrier_t;pthread_barrier_t112,2932
+  char __size[__SIZEOF_PTHREAD_BARRIERATTR_T];__size116,2970
+  int __align;__align117,3017
+} pthread_barrierattr_t;pthread_barrierattr_t118,3032
+
+.ccls-cache/@@home@salad@docs@42projects@42-cpp@cpp03/@usr@include@endian.h,1041
+#define	_ENDIAN_H	_ENDIAN_H19,808
+# define LITTLE_ENDIAN	LITTLE_ENDIAN27,976
+# define BIG_ENDIAN	BIG_ENDIAN28,1015
+# define PDP_ENDIAN	PDP_ENDIAN29,1048
+# define BYTE_ORDER	BYTE_ORDER30,1081
+#  define htobe16(htobe1639,1301
+#  define htole16(htole1640,1337
+#  define be16toh(be16toh41,1380
+#  define le16toh(le16toh42,1416
+#  define htobe32(htobe3244,1460
+#  define htole32(htole3245,1496
+#  define be32toh(be32toh46,1539
+#  define le32toh(le32toh47,1575
+#  define htobe64(htobe6449,1619
+#  define htole64(htole6450,1655
+#  define be64toh(be64toh51,1698
+#  define le64toh(le64toh52,1734
+#  define htobe16(htobe1655,1785
+#  define htole16(htole1656,1828
+#  define be16toh(be16toh57,1864
+#  define le16toh(le16toh58,1907
+#  define htobe32(htobe3260,1944
+#  define htole32(htole3261,1987
+#  define be32toh(be32toh62,2023
+#  define le32toh(le32toh63,2066
+#  define htobe64(htobe6465,2103
+#  define htole64(htole6466,2146
+#  define be64toh(be64toh67,2182
+#  define le64toh(le64toh68,2225
+
+.ccls-cache/@@home@salad@docs@42projects@42-cpp@cpp03/@include@c++@10@bits@ptr_traits.h,0
+
+.ccls-cache/@@home@salad@docs@42projects@42-cpp@cpp03/@include@c++@10@backward@binders.h,0
+
+.ccls-cache/@@home@salad@docs@42projects@42-cpp@cpp03/@include@c++@10@bits@cpp_type_traits.h,0
+
+.ccls-cache/@@home@salad@docs@42projects@42-cpp@cpp03/@include@c++@10@bits@move.h,0
+
+.ccls-cache/@@home@salad@docs@42projects@42-cpp@cpp03/@usr@include@x86_64-linux-gnu@bits@types@sigset_t.h,96
+#define __sigset_t_defined __sigset_t_defined2,27
+typedef __sigset_t sigset_t;sigset_t7,158
+
+.ccls-cache/@@home@salad@docs@42projects@42-cpp@cpp03/@usr@include@x86_64-linux-gnu@bits@locale.h,607
+#define _BITS_LOCALE_H	_BITS_LOCALE_H24,990
+#define __LC_CTYPE	__LC_CTYPE26,1016
+#define __LC_NUMERIC	__LC_NUMERIC27,1039
+#define __LC_TIME	__LC_TIME28,1064
+#define __LC_COLLATE	__LC_COLLATE29,1086
+#define __LC_MONETARY	__LC_MONETARY30,1111
+#define __LC_MESSAGES	__LC_MESSAGES31,1137
+#define __LC_ALL	__LC_ALL32,1163
+#define __LC_PAPER	__LC_PAPER33,1184
+#define __LC_NAME	__LC_NAME34,1207
+#define __LC_ADDRESS	__LC_ADDRESS35,1229
+#define __LC_TELEPHONE	__LC_TELEPHONE36,1254
+#define __LC_MEASUREMENT	__LC_MEASUREMENT37,1281
+#define __LC_IDENTIFICATION	__LC_IDENTIFICATION38,1309
+
+.ccls-cache/@@home@salad@docs@42projects@42-cpp@cpp03/@include@c++@10@bits@localefwd.h,0
+
+.ccls-cache/@@home@salad@docs@42projects@42-cpp@cpp03/@include@c++@10@bits@memoryfwd.h,0
+
+.ccls-cache/@@home@salad@docs@42projects@42-cpp@cpp03/@usr@include@x86_64-linux-gnu@bits@types.h,5973
+#define	_BITS_TYPES_H	_BITS_TYPES_H24,952
+typedef unsigned char __u_char;__u_char31,1080
+typedef unsigned short int __u_short;__u_short32,1112
+typedef unsigned int __u_int;__u_int33,1150
+typedef unsigned long int __u_long;__u_long34,1180
+typedef signed char __int8_t;__int8_t37,1293
+typedef unsigned char __uint8_t;__uint8_t38,1323
+typedef signed short int __int16_t;__int16_t39,1356
+typedef unsigned short int __uint16_t;__uint16_t40,1392
+typedef signed int __int32_t;__int32_t41,1431
+typedef unsigned int __uint32_t;__uint32_t42,1461
+typedef signed long int __int64_t;__int64_t44,1515
+typedef unsigned long int __uint64_t;__uint64_t45,1550
+__extension__ typedef signed long long int __int64_t;__int64_t47,1594
+__extension__ typedef unsigned long long int __uint64_t;__uint64_t48,1648
+typedef __int8_t __int_least8_t;__int_least8_t52,1764
+typedef __uint8_t __uint_least8_t;__uint_least8_t53,1797
+typedef __int16_t __int_least16_t;__int_least16_t54,1832
+typedef __uint16_t __uint_least16_t;__uint_least16_t55,1867
+typedef __int32_t __int_least32_t;__int_least32_t56,1904
+typedef __uint32_t __uint_least32_t;__uint_least32_t57,1939
+typedef __int64_t __int_least64_t;__int_least64_t58,1976
+typedef __uint64_t __uint_least64_t;__uint_least64_t59,2011
+typedef long int __quad_t;__quad_t63,2101
+typedef unsigned long int __u_quad_t;__u_quad_t64,2128
+__extension__ typedef long long int __quad_t;__quad_t66,2172
+__extension__ typedef unsigned long long int __u_quad_t;__u_quad_t67,2218
+typedef long int __intmax_t;__intmax_t72,2335
+typedef unsigned long int __uintmax_t;__uintmax_t73,2364
+__extension__ typedef long long int __intmax_t;__intmax_t75,2409
+__extension__ typedef unsigned long long int __uintmax_t;__uintmax_t76,2457
+#define	__S16_TYPE	__S16_TYPE109,4095
+#define __U16_TYPE	__U16_TYPE110,4125
+#define	__S32_TYPE	__S32_TYPE111,4164
+#define __U32_TYPE	__U32_TYPE112,4188
+#define __SLONGWORD_TYPE	__SLONGWORD_TYPE113,4221
+#define __ULONGWORD_TYPE	__ULONGWORD_TYPE114,4255
+# define __SQUAD_TYPE	__SQUAD_TYPE116,4319
+# define __UQUAD_TYPE	__UQUAD_TYPE117,4352
+# define __SWORD_TYPE	__SWORD_TYPE118,4386
+# define __UWORD_TYPE	__UWORD_TYPE119,4413
+# define __SLONG32_TYPE	__SLONG32_TYPE120,4449
+# define __ULONG32_TYPE	__ULONG32_TYPE121,4483
+# define __S64_TYPE	__S64_TYPE122,4526
+# define __U64_TYPE	__U64_TYPE123,4557
+# define __STD_TYPE	__STD_TYPE126,4703
+# define __SQUAD_TYPE	__SQUAD_TYPE128,4769
+# define __UQUAD_TYPE	__UQUAD_TYPE129,4801
+# define __SWORD_TYPE	__SWORD_TYPE130,4842
+# define __UWORD_TYPE	__UWORD_TYPE131,4874
+# define __SLONG32_TYPE	__SLONG32_TYPE132,4915
+# define __ULONG32_TYPE	__ULONG32_TYPE133,4944
+# define __S64_TYPE	__S64_TYPE134,4982
+# define __U64_TYPE	__U64_TYPE135,5012
+# define __STD_TYPE	__STD_TYPE137,5107
+__STD_TYPE __DEV_T_TYPE __dev_t;	/* Type of device numbers.  */__dev_t145,5284
+__STD_TYPE __UID_T_TYPE __uid_t;	/* Type of user identifications.  */__uid_t146,5348
+__STD_TYPE __GID_T_TYPE __gid_t;	/* Type of group identifications.  */__gid_t147,5418
+__STD_TYPE __INO_T_TYPE __ino_t;	/* Type of file serial numbers.  */__ino_t148,5489
+__STD_TYPE __INO64_T_TYPE __ino64_t;	/* Type of file serial numbers (LFS).*/__ino64_t149,5558
+__STD_TYPE __MODE_T_TYPE __mode_t;	/* Type of file attribute bitmasks.  */__mode_t150,5635
+__STD_TYPE __NLINK_T_TYPE __nlink_t;	/* Type of file link counts.  */__nlink_t151,5710
+__STD_TYPE __OFF_T_TYPE __off_t;	/* Type of file sizes and offsets.  */__off_t152,5780
+__STD_TYPE __OFF64_T_TYPE __off64_t;	/* Type of file sizes and offsets (LFS).  */__off64_t153,5852
+__STD_TYPE __PID_T_TYPE __pid_t;	/* Type of process identifications.  */__pid_t154,5934
+__STD_TYPE __FSID_T_TYPE __fsid_t;	/* Type of file system IDs.  */__fsid_t155,6007
+__STD_TYPE __CLOCK_T_TYPE __clock_t;	/* Type of CPU usage counts.  */__clock_t156,6074
+__STD_TYPE __RLIM_T_TYPE __rlim_t;	/* Type for resource measurement.  */__rlim_t157,6144
+__STD_TYPE __RLIM64_T_TYPE __rlim64_t;	/* Type for resource measurement (LFS).  */__rlim64_t158,6217
+__STD_TYPE __ID_T_TYPE __id_t;		/* General type for IDs.  */__id_t159,6300
+__STD_TYPE __TIME_T_TYPE __time_t;	/* Seconds since the Epoch.  */__time_t160,6361
+__STD_TYPE __USECONDS_T_TYPE __useconds_t; /* Count of microseconds.  */__useconds_t161,6428
+__STD_TYPE __SUSECONDS_T_TYPE __suseconds_t; /* Signed count of microseconds.  */__suseconds_t162,6501
+__STD_TYPE __DADDR_T_TYPE __daddr_t;	/* The type of a disk address.  */__daddr_t164,6584
+__STD_TYPE __KEY_T_TYPE __key_t;	/* Type of an IPC key.  */__key_t165,6656
+__STD_TYPE __CLOCKID_T_TYPE __clockid_t;__clockid_t168,6768
+__STD_TYPE __TIMER_T_TYPE __timer_t;__timer_t171,6854
+__STD_TYPE __BLKSIZE_T_TYPE __blksize_t;__blksize_t174,6929
+__STD_TYPE __BLKCNT_T_TYPE __blkcnt_t;__blkcnt_t179,7068
+__STD_TYPE __BLKCNT64_T_TYPE __blkcnt64_t;__blkcnt64_t180,7107
+__STD_TYPE __FSBLKCNT_T_TYPE __fsblkcnt_t;__fsblkcnt_t183,7192
+__STD_TYPE __FSBLKCNT64_T_TYPE __fsblkcnt64_t;__fsblkcnt64_t184,7235
+__STD_TYPE __FSFILCNT_T_TYPE __fsfilcnt_t;__fsfilcnt_t187,7323
+__STD_TYPE __FSFILCNT64_T_TYPE __fsfilcnt64_t;__fsfilcnt64_t188,7366
+__STD_TYPE __FSWORD_T_TYPE __fsword_t;__fsword_t191,7463
+__STD_TYPE __SSIZE_T_TYPE __ssize_t; /* Type of a byte count, or error.  */__ssize_t193,7503
+__STD_TYPE __SYSCALL_SLONG_TYPE __syscall_slong_t;__syscall_slong_t196,7626
+__STD_TYPE __SYSCALL_ULONG_TYPE __syscall_ulong_t;__syscall_ulong_t198,7725
+typedef __off64_t __loff_t;	/* Type of file sizes and offsets (LFS).  */__loff_t202,7884
+typedef char *__caddr_t;__caddr_t203,7957
+__STD_TYPE __SWORD_TYPE __intptr_t;__intptr_t206,8050
+__STD_TYPE __U32_TYPE __socklen_t;__socklen_t209,8128
+typedef int __sig_atomic_t;__sig_atomic_t214,8352
+# define __time64_t __time64_t220,8613
+__STD_TYPE __TIME64_T_TYPE __time64_t;__time64_t222,8665
+#undef __STD_TYPE__STD_TYPE225,8712
+
+.ccls-cache/@@home@salad@docs@42projects@42-cpp@cpp03/@usr@include@x86_64-linux-gnu@bits@libc-header-start.h,1527
+#undef __GLIBC_INTERNAL_STARTING_HEADER_IMPLEMENTATION__GLIBC_INTERNAL_STARTING_HEADER_IMPLEMENTATION31,1376
+#undef __GLIBC_USE_LIB_EXT2__GLIBC_USE_LIB_EXT237,1531
+# define __GLIBC_USE_LIB_EXT2 __GLIBC_USE_LIB_EXT240,1662
+# define __GLIBC_USE_LIB_EXT2 __GLIBC_USE_LIB_EXT242,1700
+#undef __GLIBC_USE_IEC_60559_BFP_EXT__GLIBC_USE_IEC_60559_BFP_EXT49,1985
+# define __GLIBC_USE_IEC_60559_BFP_EXT __GLIBC_USE_IEC_60559_BFP_EXT51,2087
+# define __GLIBC_USE_IEC_60559_BFP_EXT __GLIBC_USE_IEC_60559_BFP_EXT53,2134
+#undef __GLIBC_USE_IEC_60559_BFP_EXT_C2X__GLIBC_USE_IEC_60559_BFP_EXT_C2X55,2182
+# define __GLIBC_USE_IEC_60559_BFP_EXT_C2X __GLIBC_USE_IEC_60559_BFP_EXT_C2X57,2283
+# define __GLIBC_USE_IEC_60559_BFP_EXT_C2X __GLIBC_USE_IEC_60559_BFP_EXT_C2X59,2334
+#undef __GLIBC_USE_IEC_60559_FUNCS_EXT__GLIBC_USE_IEC_60559_FUNCS_EXT66,2578
+# define __GLIBC_USE_IEC_60559_FUNCS_EXT __GLIBC_USE_IEC_60559_FUNCS_EXT68,2684
+# define __GLIBC_USE_IEC_60559_FUNCS_EXT __GLIBC_USE_IEC_60559_FUNCS_EXT70,2733
+#undef __GLIBC_USE_IEC_60559_FUNCS_EXT_C2X__GLIBC_USE_IEC_60559_FUNCS_EXT_C2X72,2783
+# define __GLIBC_USE_IEC_60559_FUNCS_EXT_C2X __GLIBC_USE_IEC_60559_FUNCS_EXT_C2X74,2888
+# define __GLIBC_USE_IEC_60559_FUNCS_EXT_C2X __GLIBC_USE_IEC_60559_FUNCS_EXT_C2X76,2941
+#undef __GLIBC_USE_IEC_60559_TYPES_EXT__GLIBC_USE_IEC_60559_TYPES_EXT81,3083
+# define __GLIBC_USE_IEC_60559_TYPES_EXT __GLIBC_USE_IEC_60559_TYPES_EXT83,3189
+# define __GLIBC_USE_IEC_60559_TYPES_EXT __GLIBC_USE_IEC_60559_TYPES_EXT85,3238
+
+.ccls-cache/@@home@salad@docs@42projects@42-cpp@cpp03/@usr@include@x86_64-linux-gnu@bits@types@cookie_io_functions_t.h,897
+#define __cookie_io_functions_t_defined __cookie_io_functions_t_defined19,830
+typedef __ssize_t cookie_read_function_t (void *__cookie, char *__buf,cookie_read_function_t27,1062
+typedef __ssize_t cookie_write_function_t (void *__cookie, const char *__buf,cookie_write_function_t36,1589
+typedef int cookie_seek_function_t (void *__cookie, __off64_t *__pos, int __w);cookie_seek_function_t45,2007
+typedef int cookie_close_function_t (void *__cookie);cookie_close_function_t48,2109
+typedef struct _IO_cookie_io_functions_t_IO_cookie_io_functions_t55,2425
+  cookie_read_function_t *read;		/* Read bytes.  */read57,2468
+  cookie_write_function_t *write;	/* Write bytes.  */write58,2520
+  cookie_seek_function_t *seek;		/* Seek/tell file position.  */seek59,2574
+  cookie_close_function_t *close;	/* Close file.  */close60,2639
+} cookie_io_functions_t;cookie_io_functions_t61,2692
+
+.ccls-cache/@@home@salad@docs@42projects@42-cpp@cpp03/@usr@include@x86_64-linux-gnu@bits@types@__locale_t.h,463
+#define _BITS_TYPES___LOCALE_T_H _BITS_TYPES___LOCALE_T_H21,940
+struct __locale_struct__locale_struct28,1225
+  struct __locale_data *__locales[13]; /* 13 = __LC_LAST. */__locales31,1310
+  const unsigned short int *__ctype_b;__ctype_b34,1449
+  const int *__ctype_tolower;__ctype_tolower35,1488
+  const int *__ctype_toupper;__ctype_toupper36,1518
+  const char *__names[13];__names39,1609
+typedef struct __locale_struct *__locale_t;__locale_t42,1640
+
+.ccls-cache/@@home@salad@docs@42projects@42-cpp@cpp03/@usr@include@x86_64-linux-gnu@bits@types@struct_timeval.h,190
+#define __timeval_defined __timeval_defined2,26
+struct timevaltimeval8,178
+  __time_t tv_sec;		/* Seconds.  */tv_sec10,195
+  __suseconds_t tv_usec;	/* Microseconds.  */tv_usec11,231
+
+.ccls-cache/@@home@salad@docs@42projects@42-cpp@cpp03/@usr@include@x86_64-linux-gnu@bits@waitstatus.h,513
+#define	__WEXITSTATUS(__WEXITSTATUS28,1095
+#define	__WTERMSIG(__WTERMSIG31,1208
+#define	__WSTOPSIG(__WSTOPSIG34,1319
+#define	__WIFEXITED(__WIFEXITED37,1424
+#define __WIFSIGNALED(__WIFSIGNALED40,1539
+#define	__WIFSTOPPED(__WIFSTOPPED44,1682
+# define __WIFCONTINUED(__WIFCONTINUED49,1907
+#define	__WCOREDUMP(__WCOREDUMP53,2033
+#define	__W_EXITCODE(__W_EXITCODE56,2133
+#define	__W_STOPCODE(__W_STOPCODE57,2185
+#define __W_CONTINUED	__W_CONTINUED58,2231
+#define	__WCOREFLAG	__WCOREFLAG59,2261
+
+.ccls-cache/@@home@salad@docs@42projects@42-cpp@cpp03/@usr@include@asm-generic@errno-base.h,1069
+#define _ASM_GENERIC_ERRNO_BASE_H_ASM_GENERIC_ERRNO_BASE_H3,97
+#define	EPERM	EPERM5,132
+#define	ENOENT	ENOENT6,180
+#define	ESRCH	ESRCH7,231
+#define	EINTR	EINTR8,271
+#define	EIO	EIO9,319
+#define	ENXIO	ENXIO10,351
+#define	E2BIG	E2BIG11,401
+#define	ENOEXEC	ENOEXEC12,448
+#define	EBADF	EBADF13,492
+#define	ECHILD	ECHILD14,532
+#define	EAGAIN	EAGAIN15,576
+#define	ENOMEM	ENOMEM16,611
+#define	EACCES	EACCES17,650
+#define	EFAULT	EFAULT18,693
+#define	ENOTBLK	ENOTBLK19,730
+#define	EBUSY	EBUSY20,778
+#define	EEXIST	EEXIST21,826
+#define	EXDEV	EXDEV22,863
+#define	ENODEV	ENODEV23,905
+#define	ENOTDIR	ENOTDIR24,945
+#define	EISDIR	EISDIR25,987
+#define	EINVAL	EINVAL26,1027
+#define	ENFILE	ENFILE27,1069
+#define	EMFILE	EMFILE28,1114
+#define	ENOTTY	ENOTTY29,1159
+#define	ETXTBSY	ETXTBSY30,1201
+#define	EFBIG	EFBIG31,1242
+#define	ENOSPC	ENOSPC32,1281
+#define	ESPIPE	ESPIPE33,1330
+#define	EROFS	EROFS34,1368
+#define	EMLINK	EMLINK35,1414
+#define	EPIPE	EPIPE36,1454
+#define	EDOM	EDOM37,1490
+#define	ERANGE	ERANGE38,1549
+
+.ccls-cache/@@home@salad@docs@42projects@42-cpp@cpp03/@usr@include@x86_64-linux-gnu@bits@wctype-wchar.h,1817
+#define _BITS_WCTYPE_WCHAR_H _BITS_WCTYPE_WCHAR_H24,920
+typedef unsigned long int wctype_t;wctype_t38,1404
+#   define _ISwbit(_ISwbit47,1693
+#   define _ISwbit(_ISwbit49,1776
+  __ISwupper = 0,			/* UPPERCASE.  */__ISwupper58,2029
+  __ISwlower = 1,			/* lowercase.  */__ISwlower59,2067
+  __ISwalpha = 2,			/* Alphabetic.  */__ISwalpha60,2105
+  __ISwdigit = 3,			/* Numeric.  */__ISwdigit61,2144
+  __ISwxdigit = 4,			/* Hexadecimal numeric.  */__ISwxdigit62,2180
+  __ISwspace = 5,			/* Whitespace.  */__ISwspace63,2229
+  __ISwprint = 6,			/* Printing.  */__ISwprint64,2268
+  __ISwgraph = 7,			/* Graphical.  */__ISwgraph65,2305
+  __ISwblank = 8,			/* Blank (usually SPC and TAB).  */__ISwblank66,2343
+  __ISwcntrl = 9,			/* Control character.  */__ISwcntrl67,2399
+  __ISwpunct = 10,			/* Punctuation.  */__ISwpunct68,2445
+  __ISwalnum = 11,			/* Alphanumeric.  */__ISwalnum69,2486
+  _ISwupper = _ISwbit (__ISwupper),	/* UPPERCASE.  */_ISwupper71,2529
+  _ISwlower = _ISwbit (__ISwlower),	/* lowercase.  */_ISwlower72,2583
+  _ISwalpha = _ISwbit (__ISwalpha),	/* Alphabetic.  */_ISwalpha73,2637
+  _ISwdigit = _ISwbit (__ISwdigit),	/* Numeric.  */_ISwdigit74,2692
+  _ISwxdigit = _ISwbit (__ISwxdigit),	/* Hexadecimal numeric.  */_ISwxdigit75,2744
+  _ISwspace = _ISwbit (__ISwspace),	/* Whitespace.  */_ISwspace76,2810
+  _ISwprint = _ISwbit (__ISwprint),	/* Printing.  */_ISwprint77,2865
+  _ISwgraph = _ISwbit (__ISwgraph),	/* Graphical.  */_ISwgraph78,2918
+  _ISwblank = _ISwbit (__ISwblank),	/* Blank (usually SPC and TAB).  */_ISwblank79,2972
+  _ISwcntrl = _ISwbit (__ISwcntrl),	/* Control character.  */_ISwcntrl80,3044
+  _ISwpunct = _ISwbit (__ISwpunct),	/* Punctuation.  */_ISwpunct81,3106
+  _ISwalnum = _ISwbit (__ISwalnum)	/* Alphanumeric.  */_ISwalnum82,3162
+
+.ccls-cache/@@home@salad@docs@42projects@42-cpp@cpp03/@usr@include@x86_64-linux-gnu@bits@types@__mbstate_t.h,288
+#define ____mbstate_t_defined ____mbstate_t_defined2,30
+# define __WINT_TYPE__ __WINT_TYPE__9,336
+  int __count;__count15,434
+    __WINT_TYPE__ __wch;__wch18,461
+    char __wchb[4];__wchb19,486
+  } __value;		/* Value so far.  */__value20,506
+} __mbstate_t;__mbstate_t21,541
+
+.ccls-cache/@@home@salad@docs@42projects@42-cpp@cpp03/@usr@include@wchar.h,1869
+#define _WCHAR_H _WCHAR_H24,907
+#define __GLIBC_INTERNAL_STARTING_HEADER_IMPLEMENTATION__GLIBC_INTERNAL_STARTING_HEADER_IMPLEMENTATION26,927
+#define __need_size_t__need_size_t32,1092
+#define __need_wchar_t__need_wchar_t33,1114
+#define __need_NULL__need_NULL34,1137
+#define __need___va_list__need___va_list37,1178
+# define __CORRECT_ISO_CPP_WCHAR_H_PROTO__CORRECT_ISO_CPP_WCHAR_H_PROTO54,1607
+# define WCHAR_MIN WCHAR_MIN59,1736
+# define WCHAR_MAX WCHAR_MAX60,1767
+# define WEOF WEOF64,1819
+extern wchar_t *wcsdup (const wchar_t *__s) __THROW __attribute_malloc__;__attribute_malloc__154,5345
+     __THROW __attribute_pure__;__attribute_pure__165,5811
+     __THROW __attribute_pure__;__attribute_pure__175,6239
+     __THROW __attribute_pure__;__attribute_pure__182,6495
+     __THROW __attribute_pure__;__attribute_pure__188,6721
+     __THROW __attribute_pure__;__attribute_pure__192,6935
+     __THROW __attribute_pure__;__attribute_pure__202,7420
+     __THROW __attribute_pure__;__attribute_pure__213,7909
+extern size_t wcslen (const wchar_t *__s) __THROW __attribute_pure__;__attribute_pure__222,8192
+     __THROW __attribute_pure__;__attribute_pure__234,8721
+     __THROW __attribute_pure__;__attribute_pure__241,8922
+     __THROW __attribute_pure__;__attribute_pure__254,9386
+     __THROW __attribute_pure__;__attribute_pure__259,9548
+extern int mbsinit (const mbstate_t *__ps) __THROW __attribute_pure__;__attribute_pure__292,10659
+__NTH (btowc (int __c))btowc318,11777
+__NTH (wctob (wint_t __wc))wctob324,11990
+__NTH (mbrlen (const char *__restrict __s, size_t __n,mbrlen329,12159
+#   define fwscanf fwscanf658,23852
+#   define wscanf wscanf659,23888
+#   define swscanf swscanf660,23922
+#   define vfwscanf vfwscanf713,26145
+#   define vwscanf vwscanf714,26183
+#   define vswscanf vswscanf715,26219
+
+.ccls-cache/@@home@salad@docs@42projects@42-cpp@cpp03/@usr@include@x86_64-linux-gnu@bits@sched.h,1505
+#define _BITS_SCHED_H _BITS_SCHED_H21,907
+#define SCHED_OTHER	SCHED_OTHER28,1059
+#define SCHED_FIFO	SCHED_FIFO29,1082
+#define SCHED_RR	SCHED_RR30,1104
+# define SCHED_BATCH	SCHED_BATCH32,1141
+# define SCHED_ISO	SCHED_ISO33,1165
+# define SCHED_IDLE	SCHED_IDLE34,1187
+# define SCHED_DEADLINE	SCHED_DEADLINE35,1210
+# define SCHED_RESET_ON_FORK	SCHED_RESET_ON_FORK37,1238
+# define CSIGNAL CSIGNAL42,1325
+# define CLONE_VM CLONE_VM43,1398
+# define CLONE_FS CLONE_FS44,1475
+# define CLONE_FILES CLONE_FILES45,1557
+# define CLONE_SIGHAND CLONE_SIGHAND46,1642
+# define CLONE_PIDFD CLONE_PIDFD47,1714
+# define CLONE_PTRACE CLONE_PTRACE49,1807
+# define CLONE_VFORK CLONE_VFORK50,1887
+# define CLONE_PARENT CLONE_PARENT52,2000
+# define CLONE_THREAD CLONE_THREAD54,2104
+# define CLONE_NEWNS CLONE_NEWNS55,2178
+# define CLONE_SYSVSEM CLONE_SYSVSEM56,2248
+# define CLONE_SETTLS CLONE_SETTLS57,2328
+# define CLONE_PARENT_SETTID CLONE_PARENT_SETTID58,2383
+# define CLONE_CHILD_CLEARTID CLONE_CHILD_CLEARTID60,2484
+# define CLONE_DETACHED CLONE_DETACHED62,2591
+# define CLONE_UNTRACED CLONE_UNTRACED63,2656
+# define CLONE_CHILD_SETTID CLONE_CHILD_SETTID65,2775
+# define CLONE_NEWCGROUP CLONE_NEWCGROUP67,2872
+# define CLONE_NEWUTS	CLONE_NEWUTS68,2940
+# define CLONE_NEWIPC	CLONE_NEWIPC69,2999
+# define CLONE_NEWUSER	CLONE_NEWUSER70,3049
+# define CLONE_NEWPID	CLONE_NEWPID71,3110
+# define CLONE_NEWNET	CLONE_NEWNET72,3169
+# define CLONE_IO	CLONE_IO73,3232
+
+.ccls-cache/@@home@salad@docs@42projects@42-cpp@cpp03/@include@c++@10@bits@postypes.h,0
+
+.ccls-cache/@@home@salad@docs@42projects@42-cpp@cpp03/@usr@include@features.h,6607
+#define	_FEATURES_H	_FEATURES_H19,810
+#undef	__USE_ISOC11__USE_ISOC11120,5515
+#undef	__USE_ISOC99__USE_ISOC99121,5535
+#undef	__USE_ISOC95__USE_ISOC95122,5555
+#undef	__USE_ISOCXX11__USE_ISOCXX11123,5575
+#undef	__USE_POSIX__USE_POSIX124,5597
+#undef	__USE_POSIX2__USE_POSIX2125,5616
+#undef	__USE_POSIX199309__USE_POSIX199309126,5636
+#undef	__USE_POSIX199506__USE_POSIX199506127,5661
+#undef	__USE_XOPEN__USE_XOPEN128,5686
+#undef	__USE_XOPEN_EXTENDED__USE_XOPEN_EXTENDED129,5705
+#undef	__USE_UNIX98__USE_UNIX98130,5733
+#undef	__USE_XOPEN2K__USE_XOPEN2K131,5753
+#undef	__USE_XOPEN2KXSI__USE_XOPEN2KXSI132,5774
+#undef	__USE_XOPEN2K8__USE_XOPEN2K8133,5798
+#undef	__USE_XOPEN2K8XSI__USE_XOPEN2K8XSI134,5820
+#undef	__USE_LARGEFILE__USE_LARGEFILE135,5845
+#undef	__USE_LARGEFILE64__USE_LARGEFILE64136,5868
+#undef	__USE_FILE_OFFSET64__USE_FILE_OFFSET64137,5893
+#undef	__USE_MISC__USE_MISC138,5920
+#undef	__USE_ATFILE__USE_ATFILE139,5938
+#undef	__USE_GNU__USE_GNU140,5958
+#undef	__USE_FORTIFY_LEVEL__USE_FORTIFY_LEVEL141,5975
+#undef	__KERNEL_STRICT_NAMES__KERNEL_STRICT_NAMES142,6002
+#undef	__GLIBC_USE_ISOC2X__GLIBC_USE_ISOC2X143,6031
+#undef	__GLIBC_USE_DEPRECATED_GETS__GLIBC_USE_DEPRECATED_GETS144,6057
+#undef	__GLIBC_USE_DEPRECATED_SCANF__GLIBC_USE_DEPRECATED_SCANF145,6092
+# define __KERNEL_STRICT_NAMES__KERNEL_STRICT_NAMES150,6241
+# define __GNUC_PREREQ(__GNUC_PREREQ161,6565
+# define __GNUC_PREREQ(__GNUC_PREREQ164,6668
+# define __glibc_clang_prereq(__glibc_clang_prereq172,7039
+# define __glibc_clang_prereq(__glibc_clang_prereq175,7158
+#define __GLIBC_USE(__GLIBC_USE179,7245
+# undef  _DEFAULT_SOURCE_DEFAULT_SOURCE188,7674
+# define _DEFAULT_SOURCE	_DEFAULT_SOURCE189,7699
+# undef  _ISOC95_SOURCE_ISOC95_SOURCE194,7832
+# define _ISOC95_SOURCE	_ISOC95_SOURCE195,7856
+# undef  _ISOC99_SOURCE_ISOC99_SOURCE196,7882
+# define _ISOC99_SOURCE	_ISOC99_SOURCE197,7906
+# undef  _ISOC11_SOURCE_ISOC11_SOURCE198,7932
+# define _ISOC11_SOURCE	_ISOC11_SOURCE199,7956
+# undef  _ISOC2X_SOURCE_ISOC2X_SOURCE200,7982
+# define _ISOC2X_SOURCE	_ISOC2X_SOURCE201,8006
+# undef  _POSIX_SOURCE_POSIX_SOURCE202,8032
+# define _POSIX_SOURCE	_POSIX_SOURCE203,8055
+# undef  _POSIX_C_SOURCE_POSIX_C_SOURCE204,8080
+# define _POSIX_C_SOURCE	_POSIX_C_SOURCE205,8105
+# undef  _XOPEN_SOURCE_XOPEN_SOURCE206,8138
+# define _XOPEN_SOURCE	_XOPEN_SOURCE207,8161
+# undef  _XOPEN_SOURCE_EXTENDED_XOPEN_SOURCE_EXTENDED208,8188
+# define _XOPEN_SOURCE_EXTENDED	_XOPEN_SOURCE_EXTENDED209,8220
+# undef	 _LARGEFILE64_SOURCE_LARGEFILE64_SOURCE210,8254
+# define _LARGEFILE64_SOURCE	_LARGEFILE64_SOURCE211,8283
+# undef  _DEFAULT_SOURCE_DEFAULT_SOURCE212,8314
+# define _DEFAULT_SOURCE	_DEFAULT_SOURCE213,8339
+# undef  _ATFILE_SOURCE_ATFILE_SOURCE214,8366
+# define _ATFILE_SOURCE	_ATFILE_SOURCE215,8390
+# undef  _DEFAULT_SOURCE_DEFAULT_SOURCE226,8780
+# define _DEFAULT_SOURCE	_DEFAULT_SOURCE227,8805
+# define __GLIBC_USE_ISOC2X	__GLIBC_USE_ISOC2X233,8984
+# define __GLIBC_USE_ISOC2X	__GLIBC_USE_ISOC2X235,9020
+# define __USE_ISOC11	__USE_ISOC11241,9229
+# define __USE_ISOC99	__USE_ISOC99248,9472
+# define __USE_ISOC95	__USE_ISOC95255,9732
+#  define __USE_ISOC11	__USE_ISOC11261,9865
+#  define __USE_ISOCXX11	__USE_ISOCXX11266,10061
+#  define __USE_ISOC99	__USE_ISOC99267,10088
+#  define __USE_POSIX_IMPLICITLY	__USE_POSIX_IMPLICITLY276,10367
+# undef  _POSIX_SOURCE_POSIX_SOURCE278,10410
+# define _POSIX_SOURCE	_POSIX_SOURCE279,10433
+# undef  _POSIX_C_SOURCE_POSIX_C_SOURCE280,10458
+# define _POSIX_C_SOURCE	_POSIX_C_SOURCE281,10483
+# define _POSIX_SOURCE	_POSIX_SOURCE287,10687
+#  define _POSIX_C_SOURCE	_POSIX_C_SOURCE289,10768
+#  define _POSIX_C_SOURCE	_POSIX_C_SOURCE291,10854
+#  define _POSIX_C_SOURCE	_POSIX_C_SOURCE293,10946
+#  define _POSIX_C_SOURCE	_POSIX_C_SOURCE295,10987
+# define __USE_POSIX_IMPLICITLY	__USE_POSIX_IMPLICITLY297,11029
+# define _POSIX_SOURCE _POSIX_SOURCE308,11611
+# undef  _POSIX_C_SOURCE_POSIX_C_SOURCE309,11638
+# define _POSIX_C_SOURCE _POSIX_C_SOURCE310,11663
+# define __USE_POSIX	__USE_POSIX316,11828
+# define __USE_POSIX2	__USE_POSIX2320,11936
+# define __USE_POSIX199309	__USE_POSIX199309324,12032
+# define __USE_POSIX199506	__USE_POSIX199506328,12133
+# define __USE_XOPEN2K	__USE_XOPEN2K332,12234
+# undef __USE_ISOC95__USE_ISOC95333,12260
+# define __USE_ISOC95	__USE_ISOC95334,12281
+# undef __USE_ISOC99__USE_ISOC99335,12306
+# define __USE_ISOC99	__USE_ISOC99336,12327
+# define __USE_XOPEN2K8	__USE_XOPEN2K8340,12424
+# undef  _ATFILE_SOURCE_ATFILE_SOURCE341,12451
+# define _ATFILE_SOURCE	_ATFILE_SOURCE342,12475
+# define __USE_XOPEN	__USE_XOPEN346,12530
+#  define __USE_XOPEN_EXTENDED	__USE_XOPEN_EXTENDED348,12585
+#  define __USE_UNIX98	__USE_UNIX98349,12618
+#  undef _LARGEFILE_SOURCE_LARGEFILE_SOURCE350,12643
+#  define _LARGEFILE_SOURCE	_LARGEFILE_SOURCE351,12670
+#    define __USE_XOPEN2K8	__USE_XOPEN2K8354,12767
+#    define __USE_XOPEN2K8XSI	__USE_XOPEN2K8XSI355,12796
+#   define __USE_XOPEN2K	__USE_XOPEN2K357,12838
+#   define __USE_XOPEN2KXSI	__USE_XOPEN2KXSI358,12865
+#   undef __USE_ISOC95__USE_ISOC95359,12895
+#   define __USE_ISOC95	__USE_ISOC95360,12918
+#   undef __USE_ISOC99__USE_ISOC99361,12945
+#   define __USE_ISOC99	__USE_ISOC99362,12968
+#   define __USE_XOPEN_EXTENDED	__USE_XOPEN_EXTENDED366,13043
+# define __USE_LARGEFILE	__USE_LARGEFILE372,13127
+# define __USE_LARGEFILE64	__USE_LARGEFILE64376,13189
+# define __USE_FILE_OFFSET64	__USE_FILE_OFFSET64380,13283
+# define __USE_MISC	__USE_MISC384,13350
+# define __USE_ATFILE	__USE_ATFILE388,13402
+# define __USE_GNU	__USE_GNU392,13453
+#  define __USE_FORTIFY_LEVEL __USE_FORTIFY_LEVEL398,13632
+#  define __USE_FORTIFY_LEVEL __USE_FORTIFY_LEVEL400,13671
+# define __USE_FORTIFY_LEVEL __USE_FORTIFY_LEVEL403,13717
+# define __GLIBC_USE_DEPRECATED_GETS __GLIBC_USE_DEPRECATED_GETS411,14103
+# define __GLIBC_USE_DEPRECATED_GETS __GLIBC_USE_DEPRECATED_GETS413,14148
+# define __GLIBC_USE_DEPRECATED_SCANF __GLIBC_USE_DEPRECATED_SCANF432,15090
+# define __GLIBC_USE_DEPRECATED_SCANF __GLIBC_USE_DEPRECATED_SCANF434,15136
+#undef  __GNU_LIBRARY____GNU_LIBRARY__447,15729
+#define __GNU_LIBRARY__ __GNU_LIBRARY__448,15753
+#define	__GLIBC__	__GLIBC__452,15912
+#define	__GLIBC_MINOR__	__GLIBC_MINOR__453,15932
+#define __GLIBC_PREREQ(__GLIBC_PREREQ455,15960
+#  define __USE_LARGEFILE	__USE_LARGEFILE467,16389
+#  define __USE_LARGEFILE64	__USE_LARGEFILE64468,16417
+# define __USE_EXTERN_INLINES	__USE_EXTERN_INLINES477,16699
+
+.ccls-cache/@@home@salad@docs@42projects@42-cpp@cpp03/@usr@include@x86_64-linux-gnu@bits@time64.h,146
+#define	_BITS_TIME64_H	_BITS_TIME64_H24,991
+# define __TIME64_T_TYPE	__TIME64_T_TYPE30,1161
+# define __TIME64_T_TYPE	__TIME64_T_TYPE33,1266
+
+.ccls-cache/@@home@salad@docs@42projects@42-cpp@cpp03/@usr@include@x86_64-linux-gnu@bits@timex.h,3187
+#define	_BITS_TIMEX_H	_BITS_TIMEX_H19,812
+struct timextimex26,958
+  unsigned int modes;		/* mode selector */modes28,973
+  __syscall_slong_t offset;	/* time offset (usec) */offset29,1016
+  __syscall_slong_t freq;	/* frequency offset (scaled ppm) */freq30,1069
+  __syscall_slong_t maxerror;	/* maximum error (usec) */maxerror31,1131
+  __syscall_slong_t esterror;	/* estimated error (usec) */esterror32,1188
+  int status;			/* clock command/status */status33,1247
+  __syscall_slong_t constant;	/* pll time constant */constant34,1290
+  __syscall_slong_t precision;	/* clock precision (usec) (ro) */precision35,1344
+  __syscall_slong_t tolerance;	/* clock frequency tolerance (ppm) (ro) */tolerance36,1409
+  struct timeval time;		/* (read only, except for ADJ_SETOFFSET) */time37,1483
+  __syscall_slong_t tick;	/* (modified) usecs between clock ticks */tick38,1551
+  __syscall_slong_t ppsfreq;	/* pps frequency (scaled ppm) (ro) */ppsfreq39,1620
+  __syscall_slong_t jitter;	/* pps jitter (us) (ro) */jitter40,1687
+  int shift;			/* interval duration (s) (shift) (ro) */shift41,1742
+  __syscall_slong_t stabil;	/* pps stability (scaled ppm) (ro) */stabil42,1798
+  __syscall_slong_t jitcnt;	/* jitter limit exceeded (ro) */jitcnt43,1864
+  __syscall_slong_t calcnt;	/* calibration intervals (ro) */calcnt44,1925
+  __syscall_slong_t errcnt;	/* calibration errors (ro) */errcnt45,1986
+  __syscall_slong_t stbcnt;	/* stability limit exceeded (ro) */stbcnt46,2044
+  int tai;			/* TAI offset (ro) */tai48,2109
+#define ADJ_OFFSET	ADJ_OFFSET57,2307
+#define ADJ_FREQUENCY	ADJ_FREQUENCY58,2352
+#define ADJ_MAXERROR	ADJ_MAXERROR59,2405
+#define ADJ_ESTERROR	ADJ_ESTERROR60,2459
+#define ADJ_STATUS	ADJ_STATUS61,2515
+#define ADJ_TIMECONST	ADJ_TIMECONST62,2561
+#define ADJ_TAI	ADJ_TAI63,2615
+#define ADJ_SETOFFSET	ADJ_SETOFFSET64,2661
+#define ADJ_MICRO	ADJ_MICRO65,2724
+#define ADJ_NANO	ADJ_NANO66,2786
+#define ADJ_TICK	ADJ_TICK67,2846
+#define ADJ_OFFSET_SINGLESHOT	ADJ_OFFSET_SINGLESHOT68,2888
+#define ADJ_OFFSET_SS_READ	ADJ_OFFSET_SS_READ69,2953
+#define MOD_OFFSET	MOD_OFFSET72,3047
+#define MOD_FREQUENCY	MOD_FREQUENCY73,3077
+#define MOD_MAXERROR	MOD_MAXERROR74,3113
+#define MOD_ESTERROR	MOD_ESTERROR75,3147
+#define MOD_STATUS	MOD_STATUS76,3181
+#define MOD_TIMECONST	MOD_TIMECONST77,3211
+#define MOD_CLKB	MOD_CLKB78,3247
+#define MOD_CLKA	MOD_CLKA79,3273
+#define MOD_TAI	MOD_TAI80,3337
+#define MOD_MICRO	MOD_MICRO81,3362
+#define MOD_NANO	MOD_NANO82,3390
+#define STA_PLL	STA_PLL86,3452
+#define STA_PPSFREQ	STA_PPSFREQ87,3506
+#define STA_PPSTIME	STA_PPSTIME88,3571
+#define STA_FLL	STA_FLL89,3636
+#define STA_INS	STA_INS91,3699
+#define STA_DEL	STA_DEL92,3746
+#define STA_UNSYNC	STA_UNSYNC93,3793
+#define STA_FREQHOLD	STA_FREQHOLD94,3851
+#define STA_PPSSIGNAL	STA_PPSSIGNAL96,3906
+#define STA_PPSJITTER	STA_PPSJITTER97,3965
+#define STA_PPSWANDER	STA_PPSWANDER98,4032
+#define STA_PPSERROR	STA_PPSERROR99,4099
+#define STA_CLOCKERR	STA_CLOCKERR101,4168
+#define STA_NANO	STA_NANO102,4228
+#define STA_MODE	STA_MODE103,4291
+#define STA_CLK	STA_CLK104,4350
+#define STA_RONLY STA_RONLY107,4435
+
+.ccls-cache/@@home@salad@docs@42projects@42-cpp@cpp03/@usr@include@x86_64-linux-gnu@bits@types@struct_itimerspec.h,189
+#define __itimerspec_defined __itimerspec_defined2,29
+struct itimerspecitimerspec8,190
+    struct timespec it_interval;it_interval10,212
+    struct timespec it_value;it_value11,245
+
+.ccls-cache/@@home@salad@docs@42projects@42-cpp@cpp03/@include@x86_64-linux-gnu@c++@10@bits@ctype_base.h,0
+
+.ccls-cache/@@home@salad@docs@42projects@42-cpp@cpp03/@usr@include@x86_64-linux-gnu@gnu@stubs-64.h,454
+#define __stub___compat_bdflush__stub___compat_bdflush10,291
+#define __stub_chflags__stub_chflags11,323
+#define __stub_fchflags__stub_fchflags12,346
+#define __stub_gtty__stub_gtty13,370
+#define __stub_lchmod__stub_lchmod14,390
+#define __stub_revoke__stub_revoke15,412
+#define __stub_setlogin__stub_setlogin16,434
+#define __stub_sigreturn__stub_sigreturn17,458
+#define __stub_sstk__stub_sstk18,483
+#define __stub_stty__stub_stty19,503
+
+.ccls-cache/@@home@salad@docs@42projects@42-cpp@cpp03/@usr@include@x86_64-linux-gnu@bits@types@__fpos64_t.h,206
+#define _____fpos64_t_defined _____fpos64_t_defined2,30
+typedef struct _G_fpos64_t_G_fpos64_t10,317
+  __off64_t __pos;__pos12,346
+  __mbstate_t __state;__state13,365
+} __fpos64_t;__fpos64_t14,388
+
+.ccls-cache/@@home@salad@docs@42projects@42-cpp@cpp03/@usr@include@x86_64-linux-gnu@bits@types@__FILE.h,92
+#define ____FILE_defined ____FILE_defined2,25
+typedef struct _IO_FILE __FILE;__FILE5,70
+
+.ccls-cache/@@home@salad@docs@42projects@42-cpp@cpp03/@include@c++@10@bits@stl_iterator.h,0
+
+.ccls-cache/@@home@salad@docs@42projects@42-cpp@cpp03/@include@c++@10@bits@stl_construct.h,0
+
+.ccls-cache/@@home@salad@docs@42projects@42-cpp@cpp03/@include@x86_64-linux-gnu@c++@10@bits@c++allocator.h,0
+
+.ccls-cache/@@home@salad@docs@42projects@42-cpp@cpp03/@usr@include@locale.h,3115
+#define	_LOCALE_H	_LOCALE_H23,866
+#define __need_NULL__need_NULL27,910
+#define LC_CTYPE LC_CTYPE35,1131
+#define LC_NUMERIC LC_NUMERIC36,1168
+#define LC_TIME LC_TIME37,1207
+#define LC_COLLATE LC_COLLATE38,1243
+#define LC_MONETARY LC_MONETARY39,1282
+#define LC_MESSAGES LC_MESSAGES40,1322
+#define	LC_ALL	LC_ALL41,1362
+#define LC_PAPER	LC_PAPER42,1389
+#define LC_NAME	LC_NAME43,1419
+#define LC_ADDRESS	LC_ADDRESS44,1448
+#define LC_TELEPHONE	LC_TELEPHONE45,1482
+#define LC_MEASUREMENT	LC_MEASUREMENT46,1520
+#define LC_IDENTIFICATION LC_IDENTIFICATION47,1562
+struct lconvlconv51,1683
+  char *decimal_point;		/* Decimal point character.  */decimal_point55,1744
+  char *thousands_sep;		/* Thousands separator.  */thousands_sep56,1800
+  char *grouping;grouping62,2144
+  char *int_curr_symbol;int_curr_symbol68,2315
+  char *currency_symbol;	/* Local currency symbol.  */currency_symbol69,2340
+  char *mon_decimal_point;	/* Decimal point character.  */mon_decimal_point70,2395
+  char *mon_thousands_sep;	/* Thousands separator.  */mon_thousands_sep71,2454
+  char *mon_grouping;		/* Like `grouping' element (above).  */mon_grouping72,2509
+  char *positive_sign;		/* Sign for positive values.  */positive_sign73,2572
+  char *negative_sign;		/* Sign for negative values.  */negative_sign74,2629
+  char int_frac_digits;		/* Int'l fractional digits.  */int_frac_digits75,2686
+  char frac_digits;		/* Local fractional digits.  */frac_digits76,2743
+  char p_cs_precedes;p_cs_precedes78,2868
+  char p_sep_by_space;p_sep_by_space80,2962
+  char n_cs_precedes;n_cs_precedes82,3057
+  char n_sep_by_space;n_sep_by_space84,3151
+  char p_sign_posn;p_sign_posn91,3543
+  char n_sign_posn;n_sign_posn92,3563
+  char int_p_cs_precedes;int_p_cs_precedes95,3675
+  char int_p_sep_by_space;int_p_sep_by_space97,3773
+  char int_n_cs_precedes;int_n_cs_precedes99,3872
+  char int_n_sep_by_space;int_n_sep_by_space101,3970
+  char int_p_sign_posn;int_p_sign_posn108,4366
+  char int_n_sign_posn;int_n_sign_posn109,4390
+  char __int_p_cs_precedes;__int_p_cs_precedes111,4420
+  char __int_p_sep_by_space;__int_p_sep_by_space112,4448
+  char __int_n_cs_precedes;__int_n_cs_precedes113,4477
+  char __int_n_sep_by_space;__int_n_sep_by_space114,4505
+  char __int_p_sign_posn;__int_p_sign_posn115,4534
+  char __int_n_sign_posn;__int_n_sign_posn116,4560
+# define LC_CTYPE_MASK	LC_CTYPE_MASK148,5871
+# define LC_NUMERIC_MASK	LC_NUMERIC_MASK149,5913
+# define LC_TIME_MASK	LC_TIME_MASK150,5958
+# define LC_COLLATE_MASK	LC_COLLATE_MASK151,5998
+# define LC_MONETARY_MASK	LC_MONETARY_MASK152,6043
+# define LC_MESSAGES_MASK	LC_MESSAGES_MASK153,6090
+# define LC_PAPER_MASK	LC_PAPER_MASK154,6137
+# define LC_NAME_MASK	LC_NAME_MASK155,6179
+# define LC_ADDRESS_MASK	LC_ADDRESS_MASK156,6219
+# define LC_TELEPHONE_MASK	LC_TELEPHONE_MASK157,6264
+# define LC_MEASUREMENT_MASK	LC_MEASUREMENT_MASK158,6313
+# define LC_IDENTIFICATION_MASK	LC_IDENTIFICATION_MASK159,6366
+# define LC_ALL_MASK	LC_ALL_MASK160,6425
+# define LC_GLOBAL_LOCALE	LC_GLOBAL_LOCALE191,7587
+
+.ccls-cache/@@home@salad@docs@42projects@42-cpp@cpp03/@include@x86_64-linux-gnu@c++@10@bits@c++locale.h,0
+
+.ccls-cache/@@home@salad@docs@42projects@42-cpp@cpp03/@usr@include@x86_64-linux-gnu@bits@time.h,791
+#define _BITS_TIME_H	_BITS_TIME_H24,934
+#define CLOCKS_PER_SEC CLOCKS_PER_SEC34,1319
+# define CLK_TCK CLK_TCK41,1621
+# define CLOCK_REALTIME	CLOCK_REALTIME46,1772
+# define CLOCK_MONOTONIC	CLOCK_MONOTONIC48,1836
+# define CLOCK_PROCESS_CPUTIME_ID	CLOCK_PROCESS_CPUTIME_ID50,1907
+# define CLOCK_THREAD_CPUTIME_ID	CLOCK_THREAD_CPUTIME_ID52,1982
+# define CLOCK_MONOTONIC_RAW	CLOCK_MONOTONIC_RAW54,2089
+# define CLOCK_REALTIME_COARSE	CLOCK_REALTIME_COARSE56,2194
+# define CLOCK_MONOTONIC_COARSE	CLOCK_MONOTONIC_COARSE58,2287
+# define CLOCK_BOOTTIME	CLOCK_BOOTTIME60,2397
+# define CLOCK_REALTIME_ALARM	CLOCK_REALTIME_ALARM62,2485
+# define CLOCK_BOOTTIME_ALARM	CLOCK_BOOTTIME_ALARM64,2578
+# define CLOCK_TAI	CLOCK_TAI66,2672
+# define TIMER_ABSTIME	TIMER_ABSTIME69,2739
+
+.ccls-cache/@@home@salad@docs@42projects@42-cpp@cpp03/@usr@include@x86_64-linux-gnu@bits@select.h,282
+#  define __FD_ZERO_STOS __FD_ZERO_STOS28,988
+#  define __FD_ZERO_STOS __FD_ZERO_STOS30,1028
+# define __FD_ZERO(__FD_ZERO33,1070
+# define __FD_ZERO(__FD_ZERO48,1556
+#define __FD_SET(__FD_SET58,1842
+#define __FD_CLR(__FD_CLR60,1930
+#define __FD_ISSET(__FD_ISSET62,2019
+
+.ccls-cache/@@home@salad@docs@42projects@42-cpp@cpp03/@include@c++@10@bits@exception.h,0
+
+.ccls-cache/@@home@salad@docs@42projects@42-cpp@cpp03/@usr@include@x86_64-linux-gnu@bits@thread-shared-types.h,1164
+#define _THREAD_SHARED_TYPES_H _THREAD_SHARED_TYPES_H20,888
+typedef struct __pthread_internal_list__pthread_internal_list49,1988
+  struct __pthread_internal_list *__prev;__prev51,2029
+  struct __pthread_internal_list *__next;__next52,2071
+} __pthread_list_t;__pthread_list_t53,2113
+typedef struct __pthread_internal_slist__pthread_internal_slist55,2134
+  struct __pthread_internal_slist *__next;__next57,2176
+} __pthread_slist_t;__pthread_slist_t58,2219
+struct __pthread_cond_s__pthread_cond_s92,3416
+    __extension__ unsigned long long int __wseq;__wseq96,3468
+      unsigned int __low;__low99,3534
+      unsigned int __high;__high100,3560
+    } __wseq32;__wseq32101,3587
+    __extension__ unsigned long long int __g1_start;__g1_start105,3634
+      unsigned int __low;__low108,3704
+      unsigned int __high;__high109,3730
+    } __g1_start32;__g1_start32110,3757
+  unsigned int __g_refs[2] __LOCK_ALIGNMENT;__LOCK_ALIGNMENT112,3782
+  unsigned int __g_size[2];__g_size113,3827
+  unsigned int __g1_orig_size;__g1_orig_size114,3855
+  unsigned int __wrefs;__wrefs115,3886
+  unsigned int __g_signals[2];__g_signals116,3910
+
+.ccls-cache/@@home@salad@docs@42projects@42-cpp@cpp03/@usr@include@ctype.h,3888
+#define	_CTYPE_H	_CTYPE_H23,869
+#  define _ISbit(_ISbit41,1376
+  _ISupper = _ISbit (0),	/* UPPERCASE.  */_ISupper48,1550
+  _ISlower = _ISbit (1),	/* lowercase.  */_ISlower49,1593
+  _ISalpha = _ISbit (2),	/* Alphabetic.  */_ISalpha50,1636
+  _ISdigit = _ISbit (3),	/* Numeric.  */_ISdigit51,1680
+  _ISxdigit = _ISbit (4),	/* Hexadecimal numeric.  */_ISxdigit52,1721
+  _ISspace = _ISbit (5),	/* Whitespace.  */_ISspace53,1775
+  _ISprint = _ISbit (6),	/* Printing.  */_ISprint54,1819
+  _ISgraph = _ISbit (7),	/* Graphical.  */_ISgraph55,1861
+  _ISblank = _ISbit (8),	/* Blank (usually SPC and TAB).  */_ISblank56,1904
+  _IScntrl = _ISbit (9),	/* Control character.  */_IScntrl57,1965
+  _ISpunct = _ISbit (10),	/* Punctuation.  */_ISpunct58,2016
+  _ISalnum = _ISbit (11)	/* Alphanumeric.  */_ISalnum59,2062
+# define __isctype(__isctype88,3392
+# define __isctype_f(__isctype_f91,3520
+#define	__isascii(__isascii99,3739
+#define	__toascii(__toascii100,3811
+#define	__exctype(__exctype102,3874
+__exctype (isalnum);isalnum108,4129
+__exctype (isalpha);isalpha109,4150
+__exctype (iscntrl);iscntrl110,4171
+__exctype (isdigit);isdigit111,4192
+__exctype (islower);islower112,4213
+__exctype (isgraph);isgraph113,4234
+__exctype (isprint);isprint114,4255
+__exctype (ispunct);ispunct115,4276
+__exctype (isspace);isspace116,4297
+__exctype (isupper);isupper117,4318
+__exctype (isxdigit);isxdigit118,4339
+__exctype (isblank);isblank130,4590
+__exctype (_toupper);_toupper150,5197
+__exctype (_tolower);_tolower151,5219
+#define __tobody(__tobody155,5344
+__NTH (tolower (int __c))tolower207,6818
+__NTH (toupper (int __c))toupper213,6943
+#  define tolower(tolower220,7123
+#  define toupper(toupper221,7196
+#  define isascii(isascii225,7346
+#  define toascii(toascii226,7381
+#  define _tolower(_tolower228,7417
+#  define _toupper(_toupper229,7484
+#  define __isctype_l(__isctype_l241,7852
+# define __exctype_l(__exctype_l244,7957
+__exctype_l (isalnum_l);isalnum_l251,8259
+__exctype_l (isalpha_l);isalpha_l252,8284
+__exctype_l (iscntrl_l);iscntrl_l253,8309
+__exctype_l (isdigit_l);isdigit_l254,8334
+__exctype_l (islower_l);islower_l255,8359
+__exctype_l (isgraph_l);isgraph_l256,8384
+__exctype_l (isprint_l);isprint_l257,8409
+__exctype_l (ispunct_l);ispunct_l258,8434
+__exctype_l (isspace_l);isspace_l259,8459
+__exctype_l (isupper_l);isupper_l260,8484
+__exctype_l (isxdigit_l);isxdigit_l261,8509
+__exctype_l (isblank_l);isblank_l263,8536
+#  define __tolower_l(__tolower_l275,8948
+#  define __toupper_l(__toupper_l277,9051
+#  define tolower_l(tolower_l279,9154
+#  define toupper_l(toupper_l280,9213
+#  define __isalnum_l(__isalnum_l285,9323
+#  define __isalpha_l(__isalpha_l286,9382
+#  define __iscntrl_l(__iscntrl_l287,9441
+#  define __isdigit_l(__isdigit_l288,9500
+#  define __islower_l(__islower_l289,9559
+#  define __isgraph_l(__isgraph_l290,9618
+#  define __isprint_l(__isprint_l291,9677
+#  define __ispunct_l(__ispunct_l292,9736
+#  define __isspace_l(__isspace_l293,9795
+#  define __isupper_l(__isupper_l294,9854
+#  define __isxdigit_l(__isxdigit_l295,9913
+#  define __isblank_l(__isblank_l297,9975
+#   define __isascii_l(__isascii_l300,10055
+#   define __toascii_l(__toascii_l301,10104
+#  define isalnum_l(isalnum_l304,10163
+#  define isalpha_l(isalpha_l305,10211
+#  define iscntrl_l(iscntrl_l306,10259
+#  define isdigit_l(isdigit_l307,10307
+#  define islower_l(islower_l308,10355
+#  define isgraph_l(isgraph_l309,10403
+#  define isprint_l(isprint_l310,10451
+#  define ispunct_l(ispunct_l311,10499
+#  define isspace_l(isspace_l312,10547
+#  define isupper_l(isupper_l313,10595
+#  define isxdigit_l(isxdigit_l314,10643
+#  define isblank_l(isblank_l316,10694
+#   define isascii_l(isascii_l319,10763
+#   define toascii_l(toascii_l320,10812
+
+.ccls-cache/@@home@salad@docs@42projects@42-cpp@cpp03/@usr@include@x86_64-linux-gnu@bits@stdio_lim.h,310
+#define _BITS_STDIO_LIM_H _BITS_STDIO_LIM_H19,816
+#define L_tmpnam L_tmpnam25,946
+#define TMP_MAX TMP_MAX26,966
+#define FILENAME_MAX FILENAME_MAX27,989
+# define L_ctermid L_ctermid30,1035
+#  define L_cuserid L_cuserid32,1105
+#undef  FOPEN_MAXFOPEN_MAX36,1143
+#define FOPEN_MAX FOPEN_MAX37,1161
+
+.ccls-cache/@@home@salad@docs@42projects@42-cpp@cpp03/@include@c++@10@bits@predefined_ops.h,0
+
+.ccls-cache/@@home@salad@docs@42projects@42-cpp@cpp03/@include@x86_64-linux-gnu@c++@10@bits@cpu_defines.h,0
+
+.ccls-cache/@@home@salad@docs@42projects@42-cpp@cpp03/@include@c++@10@bits@concept_check.h,0
+
+.ccls-cache/@@home@salad@docs@42projects@42-cpp@cpp03/@usr@include@x86_64-linux-gnu@asm@errno.h,0
+
+.ccls-cache/@@home@salad@docs@42projects@42-cpp@cpp03/@include@c++@10@bits@stl_pair.h,0
+
+.ccls-cache/@@home@salad@docs@42projects@42-cpp@cpp03/@include@c++@10@bits@allocator.h,0
+
+.ccls-cache/@@home@salad@docs@42projects@42-cpp@cpp03/@include@c++@10@debug@assertions.h,0
+
+.ccls-cache/@@home@salad@docs@42projects@42-cpp@cpp03/@include@c++@10@bits@stl_iterator_base_types.h,0
+
+.ccls-cache/@@home@salad@docs@42projects@42-cpp@cpp03/@include@c++@10@bits@alloc_traits.h,0
+
+.ccls-cache/@@home@salad@docs@42projects@42-cpp@cpp03/@usr@include@x86_64-linux-gnu@gnu@stubs.h,0
+
+.ccls-cache/@@home@salad@docs@42projects@42-cpp@cpp03/@usr@include@x86_64-linux-gnu@bits@wordsize.h,403
+# define __WORDSIZE	__WORDSIZE4,107
+# define __WORDSIZE	__WORDSIZE6,136
+#define __WORDSIZE32_SIZE_ULONG	__WORDSIZE32_SIZE_ULONG7,159
+#define __WORDSIZE32_PTRDIFF_LONG	__WORDSIZE32_PTRDIFF_LONG8,194
+# define __WORDSIZE_TIME64_COMPAT32	__WORDSIZE_TIME64_COMPAT3212,256
+# define __SYSCALL_WORDSIZE	__SYSCALL_WORDSIZE14,359
+# define __WORDSIZE_TIME64_COMPAT32	__WORDSIZE_TIME64_COMPAT3216,397
+
+.ccls-cache/@@home@salad@docs@42projects@42-cpp@cpp03/@usr@include@sched.h,1146
+#define	_SCHED_H	_SCHED_H20,881
+#define __need_size_t__need_size_t27,978
+#define __need_NULL__need_NULL28,1000
+typedef __pid_t pid_t;pid_t38,1185
+# define __pid_t_defined__pid_t_defined39,1208
+#define sched_priority sched_priority47,1391
+#define __sched_priority __sched_priority48,1432
+# define CPU_SETSIZE CPU_SETSIZE82,2559
+# define CPU_SET(CPU_SET83,2594
+# define CPU_CLR(CPU_CLR84,2673
+# define CPU_ISSET(CPU_ISSET85,2752
+# define CPU_ZERO(CPU_ZERO87,2842
+# define CPU_COUNT(CPU_COUNT88,2913
+# define CPU_SET_S(CPU_SET_S90,2987
+# define CPU_CLR_S(CPU_CLR_S91,3067
+# define CPU_ISSET_S(CPU_ISSET_S92,3147
+# define CPU_ZERO_S(CPU_ZERO_S94,3241
+# define CPU_COUNT_S(CPU_COUNT_S95,3315
+# define CPU_EQUAL(CPU_EQUAL97,3392
+# define CPU_EQUAL_S(CPU_EQUAL_S99,3490
+# define CPU_AND(CPU_AND102,3589
+# define CPU_OR(CPU_OR104,3699
+# define CPU_XOR(CPU_XOR106,3808
+# define CPU_AND_S(CPU_AND_S108,3918
+# define CPU_OR_S(CPU_OR_S110,4028
+# define CPU_XOR_S(CPU_XOR_S112,4137
+# define CPU_ALLOC_SIZE(CPU_ALLOC_SIZE115,4248
+# define CPU_ALLOC(CPU_ALLOC116,4304
+# define CPU_FREE(CPU_FREE117,4350
+
+.ccls-cache/@@home@salad@docs@42projects@42-cpp@cpp03/@include@c++@10@bits@stringfwd.h,0
+
+.ccls-cache/@@home@salad@docs@42projects@42-cpp@cpp03/@usr@include@x86_64-linux-gnu@bits@types@clockid_t.h,101
+#define __clockid_t_defined __clockid_t_defined2,28
+typedef __clockid_t clockid_t;clockid_t7,135
+
+.ccls-cache/@@home@salad@docs@42projects@42-cpp@cpp03/@usr@include@time.h,273
+#define _TIME_H	_TIME_H23,863
+#define __need_size_t__need_size_t27,905
+#define __need_NULL__need_NULL28,927
+typedef __pid_t pid_t;pid_t54,1663
+#  define __pid_t_defined__pid_t_defined55,1686
+# define TIME_UTC TIME_UTC65,1854
+#define __isleap(__isleap181,5807
+
+.ccls-cache/@@home@salad@docs@42projects@42-cpp@cpp03/@include@c++@10@bits@locale_classes.h,0
+
+.ccls-cache/@@home@salad@docs@42projects@42-cpp@cpp03/@include@c++@10@bits@functional_hash.h,0
+
+.ccls-cache/@@home@salad@docs@42projects@42-cpp@cpp03/@usr@include@x86_64-linux-gnu@bits@types@time_t.h,86
+#define __time_t_defined __time_t_defined2,25
+typedef __time_t time_t;time_t7,105
+
+.ccls-cache/@@home@salad@docs@42projects@42-cpp@cpp03/@include@c++@10@bits@charconv.h,0
+
+.ccls-cache/@@home@salad@docs@42projects@42-cpp@cpp03/@include@x86_64-linux-gnu@c++@10@bits@ctype_inline.h,0
+
+.ccls-cache/@@home@salad@docs@42projects@42-cpp@cpp03/@include@x86_64-linux-gnu@c++@10@bits@atomic_word.h,0
+
+.ccls-cache/@@home@salad@docs@42projects@42-cpp@cpp03/@usr@include@asm-generic@errno.h,3548
+#define _ASM_GENERIC_ERRNO_H_ASM_GENERIC_ERRNO_H3,92
+#define	EDEADLK	EDEADLK7,159
+#define	ENAMETOOLONG	ENAMETOOLONG8,215
+#define	ENOLCK	ENOLCK9,264
+#define	ENOSYS	ENOSYS18,651
+#define	ENOTEMPTY	ENOTEMPTY20,704
+#define	ELOOP	ELOOP21,751
+#define	EWOULDBLOCK	EWOULDBLOCK22,811
+#define	ENOMSG	ENOMSG23,866
+#define	EIDRM	EIDRM24,918
+#define	ECHRNG	ECHRNG25,961
+#define	EL2NSYNC	EL2NSYNC26,1014
+#define	EL3HLT	EL3HLT27,1065
+#define	EL3RST	EL3RST28,1105
+#define	ELNRNG	ELNRNG29,1144
+#define	EUNATCH	EUNATCH30,1194
+#define	ENOCSI	ENOCSI31,1249
+#define	EL2HLT	EL2HLT32,1301
+#define	EBADE	EBADE33,1341
+#define	EBADR	EBADR34,1382
+#define	EXFULL	EXFULL35,1433
+#define	ENOANO	ENOANO36,1472
+#define	EBADRQC	EBADRQC37,1506
+#define	EBADSLT	EBADSLT38,1553
+#define	EDEADLOCK	EDEADLOCK40,1593
+#define	EBFONT	EBFONT42,1620
+#define	ENOSTR	ENOSTR43,1666
+#define	ENODATA	ENODATA44,1711
+#define	ETIME	ETIME45,1755
+#define	ENOSR	ENOSR46,1793
+#define	ENONET	ENONET47,1842
+#define	ENOPKG	ENOPKG48,1897
+#define	EREMOTE	EREMOTE49,1944
+#define	ENOLINK	ENOLINK50,1987
+#define	EADV	EADV51,2035
+#define	ESRMNT	ESRMNT52,2074
+#define	ECOMM	ECOMM53,2113
+#define	EPROTO	EPROTO54,2165
+#define	EMULTIHOP	EMULTIHOP55,2205
+#define	EDOTDOT	EDOTDOT56,2251
+#define	EBADMSG	EBADMSG57,2296
+#define	EOVERFLOW	EOVERFLOW58,2341
+#define	ENOTUNIQ	ENOTUNIQ59,2406
+#define	EBADFD	EBADFD60,2459
+#define	EREMCHG	EREMCHG61,2513
+#define	ELIBACC	ELIBACC62,2562
+#define	ELIBBAD	ELIBBAD63,2627
+#define	ELIBSCN	ELIBSCN64,2690
+#define	ELIBMAX	ELIBMAX65,2748
+#define	ELIBEXEC	ELIBEXEC66,2822
+#define	EILSEQ	EILSEQ67,2886
+#define	ERESTART	ERESTART68,2933
+#define	ESTRPIPE	ESTRPIPE69,3003
+#define	EUSERS	EUSERS70,3048
+#define	ENOTSOCK	ENOTSOCK71,3088
+#define	EDESTADDRREQ	EDESTADDRREQ72,3145
+#define	EMSGSIZE	EMSGSIZE73,3204
+#define	EPROTOTYPE	EPROTOTYPE74,3247
+#define	ENOPROTOOPT	ENOPROTOOPT75,3306
+#define	EPROTONOSUPPORT	EPROTONOSUPPORT76,3358
+#define	ESOCKTNOSUPPORT	ESOCKTNOSUPPORT77,3414
+#define	EOPNOTSUPP	EOPNOTSUPP78,3473
+#define	EPFNOSUPPORT	EPFNOSUPPORT79,3547
+#define	EAFNOSUPPORT	EAFNOSUPPORT80,3607
+#define	EADDRINUSE	EADDRINUSE81,3678
+#define	EADDRNOTAVAIL	EADDRNOTAVAIL82,3729
+#define	ENETDOWN	ENETDOWN83,3792
+#define	ENETUNREACH	ENETUNREACH84,3835
+#define	ENETRESET	ENETRESET85,3888
+#define	ECONNABORTED	ECONNABORTED86,3960
+#define	ECONNRESET	ECONNRESET87,4024
+#define	ENOBUFS	ENOBUFS88,4078
+#define	EISCONN	EISCONN89,4131
+#define	ENOTCONN	ENOTCONN90,4198
+#define	ESHUTDOWN	ESHUTDOWN91,4261
+#define	ETOOMANYREFS	ETOOMANYREFS92,4335
+#define	ETIMEDOUT	ETIMEDOUT93,4401
+#define	ECONNREFUSED	ECONNREFUSED94,4450
+#define	EHOSTDOWN	EHOSTDOWN95,4500
+#define	EHOSTUNREACH	EHOSTUNREACH96,4541
+#define	EALREADY	EALREADY97,4589
+#define	EINPROGRESS	EINPROGRESS98,4646
+#define	ESTALE	ESTALE99,4702
+#define	EUCLEAN	EUCLEAN100,4746
+#define	ENOTNAM	ENOTNAM101,4798
+#define	ENAVAIL	ENAVAIL102,4853
+#define	EISNAM	EISNAM103,4910
+#define	EREMOTEIO	EREMOTEIO104,4957
+#define	EDQUOT	EDQUOT105,5002
+#define	ENOMEDIUM	ENOMEDIUM107,5044
+#define	EMEDIUMTYPE	EMEDIUMTYPE108,5088
+#define	ECANCELED	ECANCELED109,5136
+#define	ENOKEY	ENOKEY110,5183
+#define	EKEYEXPIRED	EKEYEXPIRED111,5236
+#define	EKEYREVOKED	EKEYREVOKED112,5282
+#define	EKEYREJECTED	EKEYREJECTED113,5333
+#define	EOWNERDEAD	EOWNERDEAD116,5418
+#define	ENOTRECOVERABLE	ENOTRECOVERABLE117,5458
+#define ERFKILL	ERFKILL119,5515
+#define EHWPOISON	EHWPOISON121,5581
+
+.ccls-cache/@@home@salad@docs@42projects@42-cpp@cpp03/@include@c++@10@ext@numeric_traits.h,0
+
+.ccls-cache/@@home@salad@docs@42projects@42-cpp@cpp03/@usr@include@x86_64-linux-gnu@sys@cdefs.h,7180
+#define	_SYS_CDEFS_H	_SYS_CDEFS_H19,811
+#undef	__P__P34,1294
+#undef	__PMT__PMT35,1305
+#  define __LEAF __LEAF42,1487
+#  define __LEAF_ATTR __LEAF_ATTR43,1515
+#  define __LEAF__LEAF45,1571
+#  define __LEAF_ATTR__LEAF_ATTR46,1588
+#  define __THROW	__THROW55,1995
+#  define __THROWNL	__THROWNL56,2050
+#  define __NTH(__NTH57,2100
+#  define __NTHNL(__NTHNL58,2162
+#   define __THROW	__THROW61,2276
+#   define __THROWNL	__THROWNL62,2304
+#   define __NTH(__NTH63,2334
+#   define __NTHNL(__NTHNL64,2381
+#   define __THROW__THROW66,2426
+#   define __THROWNL__THROWNL67,2445
+#   define __NTH(__NTH68,2466
+#   define __NTHNL(__NTHNL69,2492
+#  define __inline	__inline77,2662
+#  define __inline	__inline79,2695
+# define __THROW__THROW82,2752
+# define __THROWNL__THROWNL83,2769
+# define __NTH(__NTH84,2788
+# define __glibc_clang_has_extension(__glibc_clang_has_extension92,3060
+# define __glibc_clang_has_extension(__glibc_clang_has_extension94,3130
+#define __P(__P99,3326
+#define __PMT(__PMT100,3349
+#define __CONCAT(__CONCAT105,3480
+#define __STRING(__STRING106,3509
+#define __ptr_t __ptr_t109,3603
+# define __BEGIN_DECLS	__BEGIN_DECLS114,3716
+# define __END_DECLS	__END_DECLS115,3752
+# define __BEGIN_DECLS__BEGIN_DECLS117,3781
+# define __END_DECLS__END_DECLS118,3804
+#define __bos(__bos123,3858
+#define __bos0(__bos0124,3930
+# define __warndecl(__warndecl127,4006
+# define __warnattr(__warnattr129,4100
+# define __errordecl(__errordecl130,4160
+# define __warndecl(__warndecl133,4259
+# define __warnattr(__warnattr134,4314
+# define __errordecl(__errordecl135,4339
+# define __flexarr	__flexarr143,4660
+# define __glibc_c99_flexarr_available __glibc_c99_flexarr_available144,4682
+# define __flexarr	__flexarr148,4876
+# define __glibc_c99_flexarr_available __glibc_c99_flexarr_available149,4898
+# define __flexarr	__flexarr153,5092
+# define __glibc_c99_flexarr_available __glibc_c99_flexarr_available154,5115
+# define __flexarr	__flexarr157,5221
+# define __glibc_c99_flexarr_available __glibc_c99_flexarr_available158,5244
+# define __REDIRECT(__REDIRECT174,5805
+#  define __REDIRECT_NTH(__REDIRECT_NTH176,5905
+#  define __REDIRECT_NTHNL(__REDIRECT_NTHNL178,6005
+#  define __REDIRECT_NTH(__REDIRECT_NTH181,6116
+#  define __REDIRECT_NTHNL(__REDIRECT_NTHNL183,6216
+# define __ASMNAME(__ASMNAME186,6328
+# define __ASMNAME2(__ASMNAME2187,6397
+# define __attribute__(__attribute__201,6825
+# define __attribute_malloc__ __attribute_malloc__208,7115
+# define __attribute_malloc__ __attribute_malloc__210,7180
+# define __attribute_alloc_size__(__attribute_alloc_size__216,7363
+# define __attribute_alloc_size__(__attribute_alloc_size__219,7455
+# define __attribute_pure__ __attribute_pure__226,7759
+# define __attribute_pure__ __attribute_pure__228,7820
+# define __attribute_const__ __attribute_const__233,7964
+# define __attribute_const__ __attribute_const__235,8027
+# define __attribute_used__ __attribute_used__242,8314
+# define __attribute_noinline__ __attribute_noinline__243,8369
+# define __attribute_used__ __attribute_used__245,8438
+# define __attribute_noinline__ __attribute_noinline__246,8495
+# define __attribute_deprecated__ __attribute_deprecated__251,8639
+# define __attribute_deprecated__ __attribute_deprecated__253,8712
+# define __attribute_deprecated_msg__(__attribute_deprecated_msg__261,9051
+# define __attribute_deprecated_msg__(__attribute_deprecated_msg__264,9143
+# define __attribute_format_arg__(__attribute_format_arg__274,9652
+# define __attribute_format_arg__(__attribute_format_arg__276,9732
+# define __attribute_format_strfmon__(__attribute_format_strfmon__284,10042
+# define __attribute_format_strfmon__(__attribute_format_strfmon__287,10144
+# define __nonnull(__nonnull293,10330
+# define __nonnull(__nonnull295,10400
+# define __attribute_warn_unused_result__ __attribute_warn_unused_result__301,10575
+#  define __wur __wur304,10692
+# define __attribute_warn_unused_result__ __attribute_warn_unused_result__307,10755
+# define __wur __wur310,10830
+# undef __always_inline__always_inline318,11128
+# define __always_inline __always_inline319,11152
+# undef __always_inline__always_inline321,11228
+# define __always_inline __always_inline322,11252
+# define __attribute_artificial__ __attribute_artificial__328,11453
+# define __attribute_artificial__ __attribute_artificial__330,11526
+#  define __extern_inline __extern_inline346,12312
+#  define __extern_always_inline __extern_always_inline347,12387
+#  define __extern_inline __extern_inline350,12487
+#  define __extern_always_inline __extern_always_inline351,12529
+# define __fortify_function __fortify_function356,12631
+# define __va_arg_pack(__va_arg_pack362,12874
+# define __va_arg_pack_len(__va_arg_pack_len363,12924
+# define __extension__	__extension__371,13244
+#  define __restrict	__restrict377,13425
+#  define __restrict	__restrict379,13462
+# define __restrict_arr	__restrict_arr387,13689
+#  define __restrict_arr	__restrict_arr390,13747
+#   define __restrict_arr	__restrict_arr393,13874
+#   define __restrict_arr	__restrict_arr396,13953
+# define __glibc_unlikely(__glibc_unlikely402,14044
+# define __glibc_likely(__glibc_likely403,14105
+# define __glibc_unlikely(__glibc_unlikely405,14170
+# define __glibc_likely(__glibc_likely406,14209
+# define __glibc_has_attribute(__glibc_has_attribute410,14277
+# define __glibc_has_attribute(__glibc_has_attribute412,14343
+#  define _Noreturn _Noreturn419,14541
+#  define _Noreturn_Noreturn421,14599
+# define __attribute_nonstring__ __attribute_nonstring__429,14839
+# define __attribute_nonstring____attribute_nonstring__431,14910
+#undef __attribute_copy____attribute_copy__435,15001
+# define __attribute_copy__(__attribute_copy__439,15137
+# define __attribute_copy__(__attribute_copy__441,15209
+# define _Static_assert(_Static_assert447,15434
+# define __LDBL_COMPAT __LDBL_COMPAT456,15741
+#  define __LDBL_REDIR1(__LDBL_REDIR1458,15785
+#  define __LDBL_REDIR(__LDBL_REDIR459,15861
+#  define __LDBL_REDIR1_NTH(__LDBL_REDIR1_NTH461,15945
+#  define __LDBL_REDIR_NTH(__LDBL_REDIR_NTH462,16029
+#  define __LDBL_REDIR1_DECL(__LDBL_REDIR1_DECL464,16121
+#  define __LDBL_REDIR_DECL(__LDBL_REDIR_DECL466,16223
+#  define __REDIRECT_LDBL(__REDIRECT_LDBL468,16327
+#  define __REDIRECT_NTH_LDBL(__REDIRECT_NTH_LDBL470,16422
+# define __LDBL_REDIR1(__LDBL_REDIR1475,16590
+# define __LDBL_REDIR(__LDBL_REDIR476,16644
+# define __LDBL_REDIR1_NTH(__LDBL_REDIR1_NTH477,16690
+# define __LDBL_REDIR_NTH(__LDBL_REDIR_NTH478,16756
+# define __LDBL_REDIR_DECL(__LDBL_REDIR_DECL479,16814
+#  define __REDIRECT_LDBL(__REDIRECT_LDBL481,16866
+#  define __REDIRECT_NTH_LDBL(__REDIRECT_NTH_LDBL482,16944
+# define __glibc_macro_warning1(__glibc_macro_warning1493,17319
+# define __glibc_macro_warning(__glibc_macro_warning494,17379
+# define __glibc_macro_warning(__glibc_macro_warning497,17474
+# define __HAVE_GENERIC_SELECTION __HAVE_GENERIC_SELECTION512,18196
+# define __HAVE_GENERIC_SELECTION __HAVE_GENERIC_SELECTION514,18238
+
+.ccls-cache/@@home@salad@docs@42projects@42-cpp@cpp03/@usr@include@x86_64-linux-gnu@bits@types@__fpos_t.h,192
+#define _____fpos_t_defined _____fpos_t_defined2,28
+typedef struct _G_fpos_t_G_fpos_t10,294
+  __off_t __pos;__pos12,321
+  __mbstate_t __state;__state13,338
+} __fpos_t;__fpos_t14,361
+
+.ccls-cache/@@home@salad@docs@42projects@42-cpp@cpp03/@usr@include@x86_64-linux-gnu@bits@timesize.h,79
+# define __TIMESIZE	__TIMESIZE21,971
+# define __TIMESIZE	__TIMESIZE24,1043
+
+.ccls-cache/@@home@salad@docs@42projects@42-cpp@cpp03/@usr@include@x86_64-linux-gnu@bits@types@struct_tm.h,848
+#define __struct_tm_defined __struct_tm_defined2,28
+struct tmtm7,127
+  int tm_sec;			/* Seconds.	[0-60] (1 leap second) */tm_sec9,139
+  int tm_min;			/* Minutes.	[0-59] */tm_min10,193
+  int tm_hour;			/* Hours.	[0-23] */tm_hour11,231
+  int tm_mday;			/* Day.		[1-31] */tm_mday12,268
+  int tm_mon;			/* Month.	[0-11] */tm_mon13,304
+  int tm_year;			/* Year	- 1900.  */tm_year14,340
+  int tm_wday;			/* Day of week.	[0-6] */tm_wday15,377
+  int tm_yday;			/* Days in year.[0-365]	*/tm_yday16,419
+  int tm_isdst;			/* DST.		[-1/0/1]*/tm_isdst17,463
+  long int tm_gmtoff;		/* Seconds east of UTC.  */tm_gmtoff20,521
+  const char *tm_zone;		/* Timezone abbreviation.  */tm_zone21,572
+  long int __tm_gmtoff;		/* Seconds east of UTC.  */__tm_gmtoff23,633
+  const char *__tm_zone;	/* Timezone abbreviation.  */__tm_zone24,686
+
+.ccls-cache/@@home@salad@docs@42projects@42-cpp@cpp03/@include@c++@10@bits@range_cmp.h,0
+
+.ccls-cache/@@home@salad@docs@42projects@42-cpp@cpp03/@usr@include@x86_64-linux-gnu@bits@types@mbstate_t.h,100
+#define __mbstate_t_defined __mbstate_t_defined2,28
+typedef __mbstate_t mbstate_t;mbstate_t6,96
+
+.ccls-cache/@@home@salad@docs@42projects@42-cpp@cpp03/@usr@include@x86_64-linux-gnu@bits@endianness.h,93
+#define _BITS_ENDIANNESS_H _BITS_ENDIANNESS_H2,27
+#define __BYTE_ORDER __BYTE_ORDER9,204
+
+.ccls-cache/@@home@salad@docs@42projects@42-cpp@cpp03/@usr@include@stdio.h,3218
+#define _STDIO_H	_STDIO_H24,911
+#define __GLIBC_INTERNAL_STARTING_HEADER_IMPLEMENTATION__GLIBC_INTERNAL_STARTING_HEADER_IMPLEMENTATION26,931
+#define __need_size_t__need_size_t31,1039
+#define __need_NULL__need_NULL32,1061
+#define __need___va_list__need___va_list35,1102
+typedef __gnuc_va_list va_list;va_list52,1503
+#   define _VA_LIST_DEFINED_VA_LIST_DEFINED53,1535
+typedef __off_t off_t;off_t63,1721
+typedef __off64_t off_t;off_t65,1751
+# define __off_t_defined__off_t_defined67,1784
+typedef __off64_t off64_t;off64_t70,1878
+# define __off64_t_defined__off64_t_defined71,1905
+typedef __ssize_t ssize_t;ssize_t77,1997
+# define __ssize_t_defined__ssize_t_defined78,2024
+typedef __fpos_t fpos_t;fpos_t84,2162
+typedef __fpos64_t fpos_t;fpos_t86,2193
+typedef __fpos64_t fpos64_t;fpos64_t89,2252
+#define _IOFBF _IOFBF93,2351
+#define _IOLBF _IOLBF94,2392
+#define _IONBF _IONBF95,2432
+#define BUFSIZ BUFSIZ99,2501
+#define EOF EOF104,2616
+#define SEEK_SET	SEEK_SET109,2734
+#define SEEK_CUR	SEEK_CUR110,2789
+#define SEEK_END	SEEK_END111,2843
+# define SEEK_DATA	SEEK_DATA113,2909
+# define SEEK_HOLE	SEEK_HOLE114,2956
+# define P_tmpdir	P_tmpdir120,3113
+#define stdin stdin141,3886
+#define stdout stdout142,3906
+#define stderr stderr143,3928
+# define RENAME_NOREPLACE RENAME_NOREPLACE158,4371
+# define RENAME_EXCHANGE RENAME_EXCHANGE159,4406
+# define RENAME_WHITEOUT RENAME_WHITEOUT160,4440
+#  define tmpfile tmpfile178,5004
+extern char *tmpnam (char *__s) __THROW __wur;__wur187,5156
+extern char *tmpnam_r (char *__s) __THROW __wur;__wur192,5336
+     __THROW __attribute_malloc__ __wur;__wur205,5968
+#  define fopen fopen265,7912
+#  define freopen freopen266,7936
+extern FILE *fdopen (int __fd, const char *__modes) __THROW __wur;__wur279,8344
+			  cookie_io_functions_t __io_funcs) __THROW __wur;__wur287,8652
+  __THROW __wur;__wur293,8895
+extern FILE *open_memstream (char **__bufloc, size_t *__sizeloc) __THROW __wur;__wur298,9125
+     __THROWNL __attribute__ ((__format__ (__printf__, 2, 0))) __wur;__wur368,11909
+     __THROWNL __attribute__ ((__format__ (__printf__, 2, 3))) __wur;__wur371,12071
+     __THROWNL __attribute__ ((__format__ (__printf__, 2, 3))) __wur;__wur374,12229
+#  define fscanf fscanf421,14149
+#  define scanf scanf422,14182
+#  define sscanf sscanf423,14213
+#   define vfscanf vfscanf473,16242
+#   define vscanf vscanf474,16278
+#   define vsscanf vsscanf475,16312
+extern char *gets (char *__s) __wur __attribute_deprecated__;__attribute_deprecated__577,19492
+#   define fseeko fseeko720,25071
+#   define ftello ftello721,25098
+#  define fgetpos fgetpos744,25784
+#  define fsetpos fsetpos745,25812
+extern int feof (FILE *__stream) __THROW __wur;__wur759,26293
+extern int ferror (FILE *__stream) __THROW __wur;__wur761,26387
+extern int feof_unlocked (FILE *__stream) __THROW __wur;__wur766,26565
+extern int ferror_unlocked (FILE *__stream) __THROW __wur;__wur767,26622
+extern int fileno (FILE *__stream) __THROW __wur;__wur786,27239
+extern int fileno_unlocked (FILE *__stream) __THROW __wur;__wur791,27385
+extern int ftrylockfile (FILE *__stream) __THROW __wur;__wur844,29001
+
+.ccls-cache/@@home@salad@docs@42projects@42-cpp@cpp03/@usr@include@x86_64-linux-gnu@bits@typesizes.h,2377
+#define	_BITS_TYPESIZES_H	_BITS_TYPESIZES_H24,998
+# define __SYSCALL_SLONG_TYPE	__SYSCALL_SLONG_TYPE31,1260
+# define __SYSCALL_ULONG_TYPE	__SYSCALL_ULONG_TYPE32,1303
+# define __SYSCALL_SLONG_TYPE	__SYSCALL_SLONG_TYPE34,1352
+# define __SYSCALL_ULONG_TYPE	__SYSCALL_ULONG_TYPE35,1399
+#define __DEV_T_TYPE	__DEV_T_TYPE38,1454
+#define __UID_T_TYPE	__UID_T_TYPE39,1489
+#define __GID_T_TYPE	__GID_T_TYPE40,1522
+#define __INO_T_TYPE	__INO_T_TYPE41,1555
+#define __INO64_T_TYPE	__INO64_T_TYPE42,1598
+#define __MODE_T_TYPE	__MODE_T_TYPE43,1635
+# define __NLINK_T_TYPE	__NLINK_T_TYPE45,1687
+# define __FSWORD_T_TYPE	__FSWORD_T_TYPE46,1733
+# define __NLINK_T_TYPE	__NLINK_T_TYPE48,1785
+# define __FSWORD_T_TYPE	__FSWORD_T_TYPE49,1823
+#define __OFF_T_TYPE	__OFF_T_TYPE51,1868
+#define __OFF64_T_TYPE	__OFF64_T_TYPE52,1911
+#define __PID_T_TYPE	__PID_T_TYPE53,1948
+#define __RLIM_T_TYPE	__RLIM_T_TYPE54,1981
+#define __RLIM64_T_TYPE	__RLIM64_T_TYPE55,2025
+#define __BLKCNT_T_TYPE	__BLKCNT_T_TYPE56,2063
+#define __BLKCNT64_T_TYPE	__BLKCNT64_T_TYPE57,2109
+#define __FSBLKCNT_T_TYPE	__FSBLKCNT_T_TYPE58,2148
+#define __FSBLKCNT64_T_TYPE	__FSBLKCNT64_T_TYPE59,2195
+#define __FSFILCNT_T_TYPE	__FSFILCNT_T_TYPE60,2236
+#define __FSFILCNT64_T_TYPE	__FSFILCNT64_T_TYPE61,2283
+#define __ID_T_TYPE	__ID_T_TYPE62,2324
+#define __CLOCK_T_TYPE	__CLOCK_T_TYPE63,2356
+#define __TIME_T_TYPE	__TIME_T_TYPE64,2401
+#define __USECONDS_T_TYPE	__USECONDS_T_TYPE65,2445
+#define __SUSECONDS_T_TYPE	__SUSECONDS_T_TYPE66,2482
+#define __DADDR_T_TYPE	__DADDR_T_TYPE67,2530
+#define __KEY_T_TYPE	__KEY_T_TYPE68,2565
+#define __CLOCKID_T_TYPE	__CLOCKID_T_TYPE69,2598
+#define __TIMER_T_TYPE	__TIMER_T_TYPE70,2634
+#define __BLKSIZE_T_TYPE	__BLKSIZE_T_TYPE71,2665
+#define __FSID_T_TYPE	__FSID_T_TYPE72,2711
+#define __SSIZE_T_TYPE	__SSIZE_T_TYPE73,2759
+#define __CPU_MASK_TYPE __CPU_MASK_TYPE74,2796
+# define __OFF_T_MATCHES_OFF64_T	__OFF_T_MATCHES_OFF64_T80,3046
+# define __INO_T_MATCHES_INO64_T	__INO_T_MATCHES_INO64_T83,3117
+# define __RLIM_T_MATCHES_RLIM64_T	__RLIM_T_MATCHES_RLIM64_T86,3193
+# define __STATFS_MATCHES_STATFS64 __STATFS_MATCHES_STATFS6489,3301
+# define __RLIM_T_MATCHES_RLIM64_T	__RLIM_T_MATCHES_RLIM64_T91,3345
+# define __STATFS_MATCHES_STATFS64 __STATFS_MATCHES_STATFS6493,3383
+#define __FD_SETSIZE	__FD_SETSIZE97,3487
+
+.ccls-cache/@@home@salad@docs@42projects@42-cpp@cpp03/@usr@include@errno.h,157
+#define	_ERRNO_H _ERRNO_H23,857
+extern int *__errno_location (void) __THROW __attribute_const__;__attribute_const__37,1182
+# define errno errno38,1247
+
+.ccls-cache/@@home@salad@docs@42projects@42-cpp@cpp03/@include@c++@10@bits@ios_base.h,0
+
+.ccls-cache/@@home@salad@docs@42projects@42-cpp@cpp03/@usr@include@x86_64-linux-gnu@bits@types@clock_t.h,91
+#define __clock_t_defined __clock_t_defined2,26
+typedef __clock_t clock_t;clock_t7,108
+
+.ccls-cache/@@home@salad@docs@42projects@42-cpp@cpp03/@include@c++@10@bits@streambuf_iterator.h,0
+
+.ccls-cache/@home@salad@docs@42projects@42-cpp@cpp03/ex02@ClapTrap.hpp,467
+#define CLAPTRAP_HCLAPTRAP_H2,19
+class ClapTrap {ClapTrap6,60
+        std::string _name;_name8,93
+        int _hitPoints;_hitPoints9,120
+        const int _maxHitPoints;_maxHitPoints10,144
+        int _energyPoints;_energyPoints11,177
+        const int _maxEnergyPoints;_maxEnergyPoints12,204
+        int _level;_level13,240
+        int _meleeDmg;_meleeDmg14,260
+        int _rangedDmg;_rangedDmg15,283
+        int _armorReduc;_armorReduc16,307
+
+.ccls-cache/@home@salad@docs@42projects@42-cpp@cpp03/ex02@ClapTrap.cpp,431
+ClapTrap::ClapTrap() :ClapTrap3,25
+ClapTrap::ClapTrap(std::string name, int HP, int maxHP, int energy,ClapTrap10,314
+ClapTrap::~ClapTrap() {~ClapTrap19,774
+void ClapTrap::useEnergy(unsigned int amount) {useEnergy23,889
+void ClapTrap::getEnergy(unsigned int amount) {getEnergy34,1238
+void ClapTrap::takeDamage(unsigned int amount) {takeDamage40,1460
+void ClapTrap::getRepaired(unsigned int amount) {getRepaired46,1656
+
+ex03/ClapTrap.hpp,467
+#define CLAPTRAP_HCLAPTRAP_H2,19
+class ClapTrap {ClapTrap6,60
+        std::string _name;_name8,93
+        int _hitPoints;_hitPoints9,120
+        const int _maxHitPoints;_maxHitPoints10,144
+        int _energyPoints;_energyPoints11,177
+        const int _maxEnergyPoints;_maxEnergyPoints12,204
+        int _level;_level13,240
+        int _meleeDmg;_meleeDmg14,260
+        int _rangedDmg;_rangedDmg15,283
+        int _armorReduc;_armorReduc16,307
+
+ex03/NinjaTrap.cpp,346
+NinjaTrap::NinjaTrap() :NinjaTrap3,26
+NinjaTrap::NinjaTrap(std::string name) :NinjaTrap9,190
+NinjaTrap::~NinjaTrap() {~NinjaTrap16,406
+void NinjaTrap::ninjaShoebox(ScavTrap & trap) {ninjaShoebox20,523
+void NinjaTrap::ninjaShoebox(FragTrap & trap) {ninjaShoebox25,707
+void NinjaTrap::ninjaShoebox(NinjaTrap & trap) {ninjaShoebox30,881
+
+ex03/NinjaTrap.hpp,90
+# define NINJATRAP_HNINJATRAP_H2,20
+class NinjaTrap : public ClapTrap {NinjaTrap8,115
+
+ex03/ScavTrap.cpp,624
+ScavTrap::ScavTrap() :ScavTrap3,25
+ScavTrap::ScavTrap(std::string name) :ScavTrap9,209
+ScavTrap::~ScavTrap() {~ScavTrap16,421
+void ScavTrap::challengeNewcomer(std::string const &target) {challengeNewcomer20,536
+void ScavTrap::justAGun(std::string const &target) const  {justAGun67,1813
+void ScavTrap::justAKnife(std::string const &target) const  {justAKnife72,2057
+void ScavTrap::biggerGun(std::string const &target) const  {biggerGun77,2293
+void ScavTrap::biggerKnife(std::string const &target) const  {biggerKnife82,2578
+void ScavTrap::egoDestroyer(std::string const &target) const  {egoDestroyer87,2809
+
+ex03/ClapTrap.cpp,431
+ClapTrap::ClapTrap() :ClapTrap3,25
+ClapTrap::ClapTrap(std::string name, int HP, int maxHP, int energy,ClapTrap10,314
+ClapTrap::~ClapTrap() {~ClapTrap19,774
+void ClapTrap::useEnergy(unsigned int amount) {useEnergy23,889
+void ClapTrap::getEnergy(unsigned int amount) {getEnergy34,1238
+void ClapTrap::takeDamage(unsigned int amount) {takeDamage40,1460
+void ClapTrap::getRepaired(unsigned int amount) {getRepaired46,1656
+
+ex03/ScavTrap.hpp,84
+#define SCAVTRAP_HSCAVTRAP_H2,19
+class ScavTrap : public ClapTrap {ScavTrap8,85
+
+ex03/main.cpp,25
+    main(void)main6,78
+
+ex03/FragTrap.hpp,85
+#define FRAGTRAP_HFRAGTRAP_H2,19
+class FragTrap : public ClapTrap {FragTrap9,103
+
+ex03/FragTrap.cpp,638
+FragTrap::FragTrap() :FragTrap3,25
+FragTrap::FragTrap(std::string name) :FragTrap9,188
+FragTrap::~FragTrap() {~FragTrap16,400
+void FragTrap::vaulthunter_dot_exe(std::string const &target) {vaulthunter_dot_exe20,515
+void FragTrap::rangedAttack(std::string const &target) const  {rangedAttack56,1286
+void FragTrap::meleeAttack(std::string const &target) const  {meleeAttack61,1516
+void FragTrap::headButt(std::string const &target) const  {headButt66,1749
+void FragTrap::flammenWerfer(std::string const &target) const  {flammenWerfer71,1978
+void FragTrap::rudeComment(std::string const &target) const  {rudeComment76,2204
+
+ex04/ClapTrap.hpp,467
+#define CLAPTRAP_HCLAPTRAP_H2,19
+class ClapTrap {ClapTrap6,60
+        std::string _name;_name8,93
+        int _hitPoints;_hitPoints9,120
+        const int _maxHitPoints;_maxHitPoints10,144
+        int _energyPoints;_energyPoints11,177
+        const int _maxEnergyPoints;_maxEnergyPoints12,204
+        int _level;_level13,240
+        int _meleeDmg;_meleeDmg14,260
+        int _rangedDmg;_rangedDmg15,283
+        int _armorReduc;_armorReduc16,307
+
+ex04/NinjaTrap.cpp,346
+NinjaTrap::NinjaTrap() :NinjaTrap3,26
+NinjaTrap::NinjaTrap(std::string name) :NinjaTrap9,190
+NinjaTrap::~NinjaTrap() {~NinjaTrap16,406
+void NinjaTrap::ninjaShoebox(ScavTrap & trap) {ninjaShoebox20,523
+void NinjaTrap::ninjaShoebox(FragTrap & trap) {ninjaShoebox25,707
+void NinjaTrap::ninjaShoebox(NinjaTrap & trap) {ninjaShoebox30,881
+
+ex04/NinjaTrap.hpp,98
+# define NINJATRAP_HNINJATRAP_H2,20
+class NinjaTrap : public virtual ClapTrap {NinjaTrap8,115
+
+ex04/SuperTrap.cpp,98
+SuperTrap::SuperTrap(std::string name) :SuperTrap3,26
+SuperTrap::~SuperTrap()~SuperTrap10,245
+
+ex04/ScavTrap.cpp,624
+ScavTrap::ScavTrap() :ScavTrap3,25
+ScavTrap::ScavTrap(std::string name) :ScavTrap9,209
+ScavTrap::~ScavTrap() {~ScavTrap16,421
+void ScavTrap::challengeNewcomer(std::string const &target) {challengeNewcomer20,543
+void ScavTrap::justAGun(std::string const &target) const  {justAGun59,1615
+void ScavTrap::justAKnife(std::string const &target) const  {justAKnife64,1859
+void ScavTrap::biggerGun(std::string const &target) const  {biggerGun69,2095
+void ScavTrap::biggerKnife(std::string const &target) const  {biggerKnife74,2380
+void ScavTrap::egoDestroyer(std::string const &target) const  {egoDestroyer79,2611
+
+ex04/ClapTrap.cpp,431
+ClapTrap::ClapTrap() :ClapTrap3,25
+ClapTrap::ClapTrap(std::string name, int HP, int maxHP, int energy,ClapTrap10,314
+ClapTrap::~ClapTrap() {~ClapTrap19,774
+void ClapTrap::useEnergy(unsigned int amount) {useEnergy23,889
+void ClapTrap::getEnergy(unsigned int amount) {getEnergy34,1238
+void ClapTrap::takeDamage(unsigned int amount) {takeDamage40,1402
+void ClapTrap::getRepaired(unsigned int amount) {getRepaired46,1598
+
+ex04/ScavTrap.hpp,84
+#define SCAVTRAP_HSCAVTRAP_H2,19
+class ScavTrap : public ClapTrap {ScavTrap8,85
+
+ex04/main.cpp,26
+    main(void)main7,103
+
+ex04/FragTrap.hpp,93
+#define FRAGTRAP_HFRAGTRAP_H2,19
+class FragTrap : virtual public ClapTrap {FragTrap9,103
+
+ex04/FragTrap.cpp,638
+FragTrap::FragTrap() :FragTrap3,25
+FragTrap::FragTrap(std::string name) :FragTrap9,188
+FragTrap::~FragTrap() {~FragTrap16,400
+void FragTrap::vaulthunter_dot_exe(std::string const &target) {vaulthunter_dot_exe20,515
+void FragTrap::rangedAttack(std::string const &target) const  {rangedAttack56,1286
+void FragTrap::meleeAttack(std::string const &target) const  {meleeAttack61,1516
+void FragTrap::headButt(std::string const &target) const  {headButt66,1749
+void FragTrap::flammenWerfer(std::string const &target) const  {flammenWerfer71,1978
+void FragTrap::rudeComment(std::string const &target) const  {rudeComment76,2204
+
+ex04/SuperTrap.hpp,107
+#define SUPERTRAP_HSUPERTRAP_H2,20
+class SuperTrap : public FragTrap, public NinjaTrap {SuperTrap8,115
+
+ex01/ScavTrap.cpp,898
+ScavTrap::ScavTrap() :ScavTrap3,25
+ScavTrap::ScavTrap(std::string name) :ScavTrap10,314
+ScavTrap::~ScavTrap() {~ScavTrap18,631
+void ScavTrap::challengeNewcomer(std::string const &target) {challengeNewcomer22,746
+void ScavTrap::justAGun(std::string const &target) const  {justAGun66,1933
+void ScavTrap::justAKnife(std::string const &target) const  {justAKnife71,2172
+void ScavTrap::biggerGun(std::string const &target) const  {biggerGun76,2408
+void ScavTrap::biggerKnife(std::string const &target) const  {biggerKnife81,2700
+void ScavTrap::egoDestroyer(std::string const &target) const  {egoDestroyer86,2937
+void ScavTrap::useEnergy(unsigned int amount) {useEnergy91,3229
+void ScavTrap::getEnergy(unsigned int amount) {getEnergy102,3578
+void ScavTrap::takeDamage(unsigned int amount) {takeDamage108,3800
+void ScavTrap::getRepaired(unsigned int amount) {getRepaired114,3996
+
+ex01/ScavTrap.hpp,430
+#define SCAVTRAP_HSCAVTRAP_H2,19
+class ScavTrap {ScavTrap6,60
+    std::string _name;_name7,77
+    int _hitPoints;_hitPoints8,100
+    const int _maxHitPoints;_maxHitPoints9,120
+    int _energyPoints;_energyPoints10,149
+    const int _maxEnergyPoints;_maxEnergyPoints11,172
+    int _level;_level12,204
+    int _meleeDmg;_meleeDmg13,220
+    int _rangedDmg;_rangedDmg14,239
+    int _armorReduc;_armorReduc15,259
+
+ex01/main.cpp,25
+    main(void)main5,53
+
+ex01/FragTrap.hpp,431
+#define FRAGTRAP_HFRAGTRAP_H2,19
+class FragTrap {FragTrap7,78
+    std::string _name;_name8,95
+    int _hitPoints;_hitPoints9,118
+    const int _maxHitPoints;_maxHitPoints10,138
+    int _energyPoints;_energyPoints11,167
+    const int _maxEnergyPoints;_maxEnergyPoints12,190
+    int _level;_level13,222
+    int _meleeDmg;_meleeDmg14,238
+    int _rangedDmg;_rangedDmg15,257
+    int _armorReduc;_armorReduc16,277
+
+ex01/FragTrap.cpp,911
+FragTrap::FragTrap() :FragTrap3,25
+FragTrap::FragTrap(std::string name) :FragTrap10,293
+FragTrap::~FragTrap() {~FragTrap18,596
+void FragTrap::vaulthunter_dot_exe(std::string const &target) {vaulthunter_dot_exe22,711
+void FragTrap::rangedAttack(std::string const &target) const  {rangedAttack63,1597
+void FragTrap::meleeAttack(std::string const &target) const  {meleeAttack68,1827
+void FragTrap::headButt(std::string const &target) const  {headButt73,2060
+void FragTrap::flammenWerfer(std::string const &target) const  {flammenWerfer78,2289
+void FragTrap::rudeComment(std::string const &target) const  {rudeComment83,2515
+void FragTrap::useEnergy(unsigned int amount) {useEnergy88,2744
+void FragTrap::getEnergy(unsigned int amount) {getEnergy99,3093
+void FragTrap::takeDamage(unsigned int amount) {takeDamage105,3315
+void FragTrap::getRepaired(unsigned int amount) {getRepaired111,3511
+
+ex02/ClapTrap.hpp,467
+#define CLAPTRAP_HCLAPTRAP_H2,19
+class ClapTrap {ClapTrap6,60
+        std::string _name;_name8,93
+        int _hitPoints;_hitPoints9,120
+        const int _maxHitPoints;_maxHitPoints10,144
+        int _energyPoints;_energyPoints11,177
+        const int _maxEnergyPoints;_maxEnergyPoints12,204
+        int _level;_level13,240
+        int _meleeDmg;_meleeDmg14,260
+        int _rangedDmg;_rangedDmg15,283
+        int _armorReduc;_armorReduc16,307
+
+ex02/ScavTrap.cpp,624
+ScavTrap::ScavTrap() :ScavTrap3,25
+ScavTrap::ScavTrap(std::string name) :ScavTrap9,209
+ScavTrap::~ScavTrap() {~ScavTrap16,421
+void ScavTrap::challengeNewcomer(std::string const &target) {challengeNewcomer20,536
+void ScavTrap::justAGun(std::string const &target) const  {justAGun64,1723
+void ScavTrap::justAKnife(std::string const &target) const  {justAKnife69,1967
+void ScavTrap::biggerGun(std::string const &target) const  {biggerGun74,2203
+void ScavTrap::biggerKnife(std::string const &target) const  {biggerKnife79,2488
+void ScavTrap::egoDestroyer(std::string const &target) const  {egoDestroyer84,2719
+
+ex02/ClapTrap.cpp,431
+ClapTrap::ClapTrap() :ClapTrap3,25
+ClapTrap::ClapTrap(std::string name, int HP, int maxHP, int energy,ClapTrap10,314
+ClapTrap::~ClapTrap() {~ClapTrap19,774
+void ClapTrap::useEnergy(unsigned int amount) {useEnergy23,889
+void ClapTrap::getEnergy(unsigned int amount) {getEnergy34,1238
+void ClapTrap::takeDamage(unsigned int amount) {takeDamage40,1460
+void ClapTrap::getRepaired(unsigned int amount) {getRepaired46,1656
+
+ex02/ScavTrap.hpp,84
+#define SCAVTRAP_HSCAVTRAP_H2,19
+class ScavTrap : public ClapTrap {ScavTrap8,85
+
+ex02/main.cpp,25
+    main(void)main5,53
+
+ex02/FragTrap.hpp,85
+#define FRAGTRAP_HFRAGTRAP_H2,19
+class FragTrap : public ClapTrap {FragTrap9,103
+
+ex02/FragTrap.cpp,638
+FragTrap::FragTrap() :FragTrap3,25
+FragTrap::FragTrap(std::string name) :FragTrap9,188
+FragTrap::~FragTrap() {~FragTrap16,386
+void FragTrap::vaulthunter_dot_exe(std::string const &target) {vaulthunter_dot_exe20,501
+void FragTrap::rangedAttack(std::string const &target) const  {rangedAttack61,1387
+void FragTrap::meleeAttack(std::string const &target) const  {meleeAttack66,1617
+void FragTrap::headButt(std::string const &target) const  {headButt71,1850
+void FragTrap::flammenWerfer(std::string const &target) const  {flammenWerfer76,2079
+void FragTrap::rudeComment(std::string const &target) const  {rudeComment81,2305
+
+ex00/main.cpp,25
+    main(void)main4,29
+
+ex00/FragTrap.hpp,431
+#define FRAGTRAP_HFRAGTRAP_H2,19
+class FragTrap {FragTrap7,78
+    std::string _name;_name8,95
+    int _hitPoints;_hitPoints9,118
+    const int _maxHitPoints;_maxHitPoints10,138
+    int _energyPoints;_energyPoints11,167
+    const int _maxEnergyPoints;_maxEnergyPoints12,190
+    int _level;_level13,222
+    int _meleeDmg;_meleeDmg14,238
+    int _rangedDmg;_rangedDmg15,257
+    int _armorReduc;_armorReduc16,277
+
+ex00/FragTrap.cpp,911
+FragTrap::FragTrap() :FragTrap3,25
+FragTrap::FragTrap(std::string name) :FragTrap10,293
+FragTrap::~FragTrap() {~FragTrap18,596
+void FragTrap::vaulthunter_dot_exe(std::string const &target) {vaulthunter_dot_exe22,711
+void FragTrap::rangedAttack(std::string const &target) const  {rangedAttack63,1597
+void FragTrap::meleeAttack(std::string const &target) const  {meleeAttack68,1827
+void FragTrap::headButt(std::string const &target) const  {headButt73,2060
+void FragTrap::flammenWerfer(std::string const &target) const  {flammenWerfer78,2289
+void FragTrap::rudeComment(std::string const &target) const  {rudeComment83,2515
+void FragTrap::useEnergy(unsigned int amount) {useEnergy88,2744
+void FragTrap::getEnergy(unsigned int amount) {getEnergy99,3093
+void FragTrap::takeDamage(unsigned int amount) {takeDamage105,3315
+void FragTrap::getRepaired(unsigned int amount) {getRepaired111,3511
